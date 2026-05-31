@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FoxWeb Database</title>
+    <style>
+        body {
+            font-family: sans-serif;
+            background-color: #0d1117;
+            color: #c9d1d9;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+            text-align: center;
+        }
+        .container {
+            padding: 20px;
+        }
+        h1 {
+            color: #f08a24;
+            font-size: 2.5rem;
+            margin-bottom: 10px;
+        }
+        p {
+            color: #8b949e;
+            font-size: 1.2rem;
+        }
+        a {
+            color: #58a6ff;
+            text-decoration: none;
+        }
+        a:hover {
+            text-decoration: underline;
+        }
+        .status {
+            font-weight: bold;
+            margin-top: 15px;
+            transition: color 0.3s ease;
+        }
+        /* Colores dinámicos para el estado */
+        .online { color: #3fb950; }
+        .offline { color: #f85149; }
+        .checking { color: #8b949e; }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <h1>FoxWeb Database</h1>
+        <p>Servidor de Base de Datos para <a href="https://foxweb.qzz.io">FoxWeb</a></p>
+        <p id="status-text" class="status checking">● Verificando conexión...</p>
+    </div>
+
+    <script>
+        async function checkPing() {
+            const statusText = document.getElementById('status-text');
+            // Usamos el mismo dominio actual para evitar problemas de CORS
+            const targetUrl = window.location.origin + '/favicon.ico?t=' + Date.now();
+
+            const startTime = performance.now();
+
+            try {
+                // Hacemos una petición rápida (HEAD) para no descargar todo el archivo, solo verificar respuesta
+                const response = await fetch(targetUrl, { method: 'HEAD', cache: 'no-store' });
+
+                if (response.ok || response.status === 404) {
+                    // Si responde (incluso un 404 significa que el servidor está vivo)
+                    const endTime = performance.now();
+                    const ping = Math.round(endTime - startTime);
+
+                    statusText.className = "status online";
+                    statusText.innerHTML = `● Todo en orden - ${ping} ms`;
+                } else {
+                    throw new Error('Servidor no responde correctamente');
+                }
+            } catch (error) {
+                // Si falla la conexión o da error de red
+                statusText.className = "status offline";
+                statusText.innerHTML = "● Desconectado";
+            }
+        }
+
+        // Ejecutar el ping al cargar la página
+        checkPing();
+
+        // Refrescar el ping automáticamente cada 10 segundos
+        setInterval(checkPing, 1000);
+    </script>
+
+</body>
+</html>
