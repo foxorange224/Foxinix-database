@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>FoxWeb Database</title>
+    <title>FoxWeb Database Status</title>
     <style>
         body {
             font-family: sans-serif;
@@ -49,7 +49,7 @@
 <body>
 
     <div class="container">
-        <h1>FoxWeb Database</h1>
+        <h1>FoxWeb Database Status</h1>
         <p>Servidor de Base de Datos para <a href="https://foxweb.qzz.io">FoxWeb</a></p>
         <p id="status-text" class="status checking">● Verificando conexión...</p>
     </div>
@@ -58,7 +58,7 @@
         async function checkPing() {
             const statusText = document.getElementById('status-text');
             // Usamos el mismo dominio actual para evitar problemas de CORS
-            const targetUrl = window.location.origin + '/favicon.ico?t=' + Date.now();
+            const targetUrl = window.location.origin + '/ping.txt?t=' + Date.now();
 
             const startTime = performance.now();
 
@@ -86,8 +86,8 @@
         // Ejecutar el ping al cargar la página
         checkPing();
 
-        // Refrescar el ping automáticamente cada 10 segundos
-        setInterval(checkPing, 1000);
+        // Refrescar el ping automáticamente cada 2 segundos
+        setInterval(checkPing, 2000);
     </script>
 
 </body>
