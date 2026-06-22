@@ -236,6 +236,7 @@ class FoxWebManager(QtWidgets.QMainWindow):
 
     def _refresh_tree(self):
         self.tree.clear()
+        self.tree.setIconSize(QtCore.QSize(24, 24))
         for cat in self.dm.categories_order:
             if cat not in self.dm.data:
                 continue
@@ -248,6 +249,9 @@ class FoxWebManager(QtWidgets.QMainWindow):
             for idx, item in enumerate(self.dm.data[cat]):
                 s = QtWidgets.QTreeWidgetItem([item.get('name', ''), item.get('id', '')])
                 s.setData(0, QtCore.Qt.ItemDataRole.UserRole, ('item', cat, idx))
+                ip = os.path.join('icons', f'{item.get("id", "")}.webp')
+                if os.path.exists(ip):
+                    s.setIcon(0, QIcon(ip))
                 ci.addChild(s)
         self.tree.expandAll()
 
