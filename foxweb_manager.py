@@ -380,6 +380,13 @@ class FoxWebManager(QtWidgets.QMainWindow):
             return
         entry = self.dm.data[self.current_cat][self.current_idx]
         item_id = entry.get('id', '')
+        r = QtWidgets.QMessageBox.question(
+            self, 'Confirmar',
+            f'¿Eliminar {item_id}.md?',
+            QtWidgets.QMessageBox.StandardButton.Yes | QtWidgets.QMessageBox.StandardButton.No,
+        )
+        if r != QtWidgets.QMessageBox.StandardButton.Yes:
+            return
         self.dm.delete_md(item_id)
         self.md_editor.clear()
         self.md_status.setText('.md eliminado')
