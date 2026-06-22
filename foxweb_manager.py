@@ -106,9 +106,6 @@ class FoxWebManager(QtWidgets.QMainWindow):
         self.btn_remove_icon = QtWidgets.QPushButton('Quitar icono')
         self.btn_remove_icon.clicked.connect(self._on_remove_icon)
         self.btn_fix_icons = QtWidgets.QPushButton('Reparar todos')
-        self.btn_fix_icons.setStyleSheet(
-            'background: #f39c12; color: #fff; padding: 8px 16px; border: none; border-radius: 4px;'
-        )
         self.btn_fix_icons.clicked.connect(self._on_fix_icons)
 
         icon_btn_row.addWidget(self.btn_change_icon)
@@ -143,14 +140,8 @@ class FoxWebManager(QtWidgets.QMainWindow):
 
         md_btn_row = QtWidgets.QHBoxLayout()
         self.btn_md_save = QtWidgets.QPushButton('Guardar .md')
-        self.btn_md_save.setStyleSheet(
-            'background: #3498db; color: #fff; padding: 8px 16px; border: none; border-radius: 4px;'
-        )
         self.btn_md_save.clicked.connect(self._on_md_save)
         self.btn_md_delete = QtWidgets.QPushButton('Eliminar .md')
-        self.btn_md_delete.setStyleSheet(
-            'background: #e74c3c; color: #fff; padding: 8px 16px; border: none; border-radius: 4px;'
-        )
         self.btn_md_delete.clicked.connect(self._on_md_delete)
 
         self.md_status = QtWidgets.QLabel('')
@@ -169,40 +160,21 @@ class FoxWebManager(QtWidgets.QMainWindow):
 
         btn_row = QtWidgets.QHBoxLayout()
         self.btn_add = QtWidgets.QPushButton('+ Nuevo')
-        self.btn_add.setStyleSheet(
-            'background: #27ae60; color: #fff; padding: 8px 16px; border: none; border-radius: 4px;'
-        )
         self.btn_add.clicked.connect(self._on_add)
 
         self.btn_delete = QtWidgets.QPushButton('Eliminar')
-        self.btn_delete.setStyleSheet(
-            'background: #e74c3c; color: #fff; padding: 8px 16px; border: none; border-radius: 4px;'
-        )
         self.btn_delete.clicked.connect(self._on_delete)
 
         self.btn_move_up = QtWidgets.QPushButton('▲ Subir')
-        self.btn_move_up.setStyleSheet(
-            'background: #555; color: #fff; padding: 8px 12px; border: none; border-radius: 4px;'
-        )
         self.btn_move_up.clicked.connect(self._on_move_up)
 
         self.btn_move_down = QtWidgets.QPushButton('▼ Bajar')
-        self.btn_move_down.setStyleSheet(
-            'background: #555; color: #fff; padding: 8px 12px; border: none; border-radius: 4px;'
-        )
         self.btn_move_down.clicked.connect(self._on_move_down)
 
         self.btn_reorder = QtWidgets.QPushButton('Reordenar IDs')
-        self.btn_reorder.setStyleSheet(
-            'background: #8e44ad; color: #fff; padding: 8px 12px; border: none; border-radius: 4px;'
-        )
         self.btn_reorder.clicked.connect(self._on_reorder)
 
         self.btn_save = QtWidgets.QPushButton('Guardar')
-        self.btn_save.setStyleSheet(
-            'background: #3498db; color: #fff; padding: 8px 16px; border: none; '
-            'border-radius: 4px; font-weight: bold;'
-        )
         self.btn_save.clicked.connect(self._on_save)
 
         btn_row.addWidget(self.btn_add)
