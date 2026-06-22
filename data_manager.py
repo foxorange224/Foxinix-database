@@ -128,7 +128,7 @@ class DataManager:
         new_id = f'{self._id_counter:06d}'
         self._id_counter += 1
         self.data[cat].append({
-            'name': 'Nuevo elemento', 'icon': '', 'info': '',
+            'name': 'Nuevo elemento', 'info': '',
             'enlace': '#', 'badges': [], 'id': new_id,
         })
         self.modified = True
