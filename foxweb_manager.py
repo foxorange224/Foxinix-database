@@ -73,9 +73,21 @@ class FoxWebManager(QtWidgets.QMainWindow):
         self.badges_input.setPlaceholderText('Ej: LIGERO, OPEN SOURCE, WINDOWS XP')
         self.badges_input.textChanged.connect(self._on_badges_changed)
 
-        self.badges_warn = QtWidgets.QLabel('')
-        self.badges_warn.setStyleSheet('color: #e67e22; font-size: 11px;')
-        self.badges_warn.setWordWrap(True)
+        self.badges_warn = QtWidgets.QWidget()
+        self.badges_warn.setVisible(False)
+        bw_layout = QtWidgets.QHBoxLayout(self.badges_warn)
+        bw_layout.setContentsMargins(0, 2, 0, 0)
+        bw_layout.setSpacing(4)
+        self.badges_warn_icon = QtWidgets.QLabel()
+        self.badges_warn_icon.setFixedSize(16, 16)
+        warning_icon = QIcon.fromTheme('dialog-warning')
+        if not warning_icon.isNull():
+            self.badges_warn_icon.setPixmap(warning_icon.pixmap(16, 16))
+        self.badges_warn_text = QtWidgets.QLabel('')
+        self.badges_warn_text.setStyleSheet('color: #e67e22; font-size: 11px;')
+        self.badges_warn_text.setWordWrap(True)
+        bw_layout.addWidget(self.badges_warn_icon)
+        bw_layout.addWidget(self.badges_warn_text, 1)
 
         badges_container = QtWidgets.QWidget()
         bcl = QtWidgets.QVBoxLayout(badges_container)
@@ -274,6 +286,7 @@ class FoxWebManager(QtWidgets.QMainWindow):
         self.icon_info_label.setText('Selecciona un elemento para gestionar su icono')
         self.md_editor.clear()
         self.md_status.setText('')
+        self.badges_warn.setVisible(False)
         self.dm.modified = False
         self._update_title()
 
@@ -283,12 +296,15 @@ class FoxWebManager(QtWidgets.QMainWindow):
         tags = [t.strip() for t in text.split(',') if t.strip()]
         warnings = []
         if len(tags) > 3:
-            warnings.append('⚠ Máximo 3 etiquetas')
+            warnings.append('Máximo 3 etiquetas')
         over_14 = [t for t in tags if len(t) > 14]
         if over_14:
-            warnings.append(f'⚠ {len(over_14)} etiqueta(s) superan los 14 caracteres')
-        self.badges_warn.setText('\n'.join(warnings))
-        self.badges_warn.setVisible(bool(warnings))
+            warnings.append(f'{len(over_14)} etiqueta(s) superan los 14 caracteres')
+        if warnings:
+            self.badges_warn_text.setText('\n'.join(warnings))
+            self.badges_warn.setVisible(True)
+        else:
+            self.badges_warn.setVisible(False)
 
     def _update_icon_preview(self, item_id: str):
         pix = self.dm.get_icon_pixmap(item_id)
