@@ -226,8 +226,7 @@ class FoxWebManager(QtWidgets.QMainWindow):
         QtWidgets.QShortcut(QtGui.QKeySequence('Ctrl+N'), self, self._on_add)
         QtWidgets.QShortcut(QtGui.QKeySequence('Ctrl+D'), self, self._on_delete)
         QtWidgets.QShortcut(QtGui.QKeySequence('Ctrl+R'), self, self._on_reorder)
-        QtWidgets.QShortcut(QtGui.QKeySequence('Up'), self, self._on_move_up_shortcut)
-        QtWidgets.QShortcut(QtGui.QKeySequence('Down'), self, self._on_move_down_shortcut)
+
 
     def _update_title(self):
         mark = ' *' if self.dm.modified else ''
@@ -407,12 +406,6 @@ class FoxWebManager(QtWidgets.QMainWindow):
         self._refresh_tree()
         self._select_tree_item(self.current_cat, self.current_idx)
         self._update_title()
-
-    def _on_move_up_shortcut(self):
-        self._on_move_up()
-
-    def _on_move_down_shortcut(self):
-        self._on_move_down()
 
     def _select_tree_item(self, cat: str, idx: int):
         for i in range(self.tree.topLevelItemCount()):
