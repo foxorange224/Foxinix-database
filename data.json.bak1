@@ -1,0 +1,1614 @@
+{
+  "programas": [
+    {
+      "name": "Mypal",
+      "info": "",
+      "enlace": "#",
+      "badges": [
+        "LIGERO",
+        "OPEN SOURCE",
+        "WINDOWS XP"
+      ],
+      "id": "000001",
+      "verified": true
+    },
+    {
+      "name": "7-Zip",
+      "info": "",
+      "enlace": "AigJaz1eJRDep1+A/PXxGR6eJDFm3vxczCbdw5un3+FB/HS4E5QkwgqtXXTGKOw0IpUbd8OknSiwgjxkMBzq3+Bsem4CAgoPefaYsO0YZ8MIKD9M/45tfX7WR7+yBXUIUp3/7l4UDbSC1SXqCxocBnw=",
+      "badges": [
+        "COMPRESIÓN",
+        "OPEN SOURCE",
+        "ESENCIAL"
+      ],
+      "id": "000002",
+      "verified": true
+    },
+    {
+      "name": "VLC Media Player",
+      "info": "",
+      "enlace": "#",
+      "badges": [
+        "MULTIMEDIA",
+        "UNIVERSAL",
+        "ESENCIAL"
+      ],
+      "id": "000003",
+      "verified": true
+    },
+    {
+      "name": "Visual Studio Code",
+      "info": "Editor de código fuente ligero pero potente. Soporte para múltiples lenguajes, debugging y control de Git integrado.",
+      "enlace": "Ai2JpHXW9YVY9PhMAEIKmzj4rfN2bhT7bSB5wM53pYuhsqi9BvYjgCErc06/9sa30bR33Fc8axek3CkdJWO1lFia7gsjGYnY2hsYX2qQIaj1cVZGZmShBvtZS+wGvrCpJAkbpL1y6Lo7HIiZnmXvg4A=",
+      "badges": [
+        "PROGRAMACIÓN",
+        "EDITOR",
+        "GRATUITO"
+      ],
+      "id": "000004",
+      "verified": true
+    },
+    {
+      "name": "LibreOffice",
+      "info": "Suite ofimática completa y gratuita. Incluye procesador de texto, hojas de cálculo, presentaciones y más.",
+      "enlace": "AtBn+CQnvOPqR8+O7lVw2A8N53fHqZAdI84RHeWxm3T+VeYvUlGzETGQWo3JXajFxM/Z6SSfjOC+vx71c2UlWTIvwaQTzy4VF2sKwx6xCznmiOr4NbPpN2umM97X21Ehh/F/LQno1cJBCIQAOeMDrp4l7LfFUIWq4JzHcrqEo+fS",
+      "badges": [
+        "OFIMÁTICA",
+        "PRODUCTIVIDAD",
+        "GRATUITO"
+      ],
+      "id": "000005",
+      "verified": true
+    },
+    {
+      "name": "GIMP",
+      "info": "Editor de imágenes de código abierto. Potente alternativa a Photoshop con soporte para capas, filtros y scripts.",
+      "enlace": "AtQxIi9Z9cIGJIZtEGPTNi/bv2KQZMjajGNYbFhorBeaVOY+lGK48MgBScM5tS+feYXgBtvKMmj1nIyNJQa8c3GizM9WoAeKq8eD35DFlzJj+cxkFbJ8axP/KTh5vRuu+w==",
+      "badges": [
+        "EDICIÓN",
+        "FOTOS",
+        "OPEN SOURCE"
+      ],
+      "id": "000006",
+      "verified": true
+    },
+    {
+      "name": "Audacity",
+      "info": "Editor de audio gratuito y de código abierto. Graba, edita y mezcla pistas de audio de forma profesional.",
+      "enlace": "Ai/FR5OKAd8cr75VLJx7UnWCpvphYVBXWeUEnzMNLY3Wb9QYK1yUzAcvX34rBWmIMygY6nSIJwe81BpFS1zLfn/gBEhfDv6IPUge1rslQsVFuuvWjM+cb3ktrhGQanKdbJyA8TmmelioMI9RFma9dF4=",
+      "badges": [
+        "AUDIO",
+        "EDITOR",
+        "OPEN SOURCE"
+      ],
+      "id": "000007",
+      "verified": true
+    },
+    {
+      "name": "OBS Studio",
+      "info": "Software de grabación y transmisión en vivo. Gratuito y open source para streamers, youtubers y creadores.",
+      "enlace": "ArU0ikTXUzMQ10m7Nt80m67ViFsGtJwEesBgDQdgdpz5FzFdowyG9EIoehgCdN/Y45/vKDwTvPdhL1C4n14WQp7QabrZhl8kSwRMQRBk4PDx+iBIXWLzGPtDWlLnQiStLg==",
+      "badges": [
+        "STREAMING",
+        "GRABACIÓN",
+        "OPEN SOURCE"
+      ],
+      "id": "000008",
+      "verified": true
+    },
+    {
+      "name": "Notepad++",
+      "info": "Editor de texto y código fuente potente y ligero. Ideal para programadores, con soporte para múltiples lenguajes y plugins.",
+      "enlace": "#",
+      "badges": [
+        "EDITOR",
+        "PROGRAMACIÓN",
+        "WINDOWS"
+      ],
+      "id": "000009",
+      "verified": true
+    },
+    {
+      "name": "Krita",
+      "info": "Software de pintura digital y animación de código abierto. Alternativa gratuita a Photoshop para artistas digitales.",
+      "enlace": "Ag0GKuIt5JFTYLPDBziduMGOn/sJb0bXHDX9+hubNO9S5H5Fvgo4t2xDVnwZ5bdaACOReCe8x0ZK7C/siKIeX2b1GDrutGJTVVk1ceirNIXOnA86fnrzsK7jkCau+suMrA==",
+      "badges": [
+        "DISEÑO",
+        "DIGITAL",
+        "OPEN SOURCE"
+      ],
+      "id": "000010",
+      "verified": true
+    },
+    {
+      "name": "Inkscape",
+      "info": "Editor de gráficos vectoriales profesional. Crea logotipos, ilustraciones, diagramas y más. Alternativa a Illustrator.",
+      "enlace": "AiCLivhgvi/kv0iwmRWC49FblV+K2MZuQMsBmyzdWCrqS+KruWVjdyb4spE0/KdRgSJW+0IS9c1VAbxnz0k+9pxxq7rPkDDJHdhlJisRJabCa8oy66GEhUKCKxkfGwK24w==",
+      "badges": [
+        "VECTORES",
+        "DISEÑO",
+        "OPEN SOURCE"
+      ],
+      "id": "000011",
+      "verified": true
+    },
+    {
+      "name": "DaVinci Resolve",
+      "info": "Software profesional de edición de video, colorización y postproducción. Versión gratuita con funciones completas.",
+      "enlace": "ArnsIw3A5/+zepjwZy9vXyTE7gGCCDkx6C15Bmlfl3TPB/u0iRqO2ZKHE0LQMP1gp70LQVdVn9Byo4yKksiSuOe5P9Fl3i3mWKP3RuWO5pXltwlQFrwIAbZDpsqIaLgkMPDG1acSJIBCJ0OzbBkTeKZYV3ClzCopJ8fTatAFziQm",
+      "badges": [
+        "VIDEO",
+        "EDICIÓN",
+        "PROFESIONAL"
+      ],
+      "id": "000012",
+      "verified": true
+    },
+    {
+      "name": "Python",
+      "info": "Lenguaje de programación interpretado. Simple, potente y popular para ciencia de datos, IA, web y automatización.",
+      "enlace": "Avb62Ji+CTUnJSnnUA6F+Wv1wVqg3w/6cLY1uRwEW85K4kPzNNV0YgZVhHcim6mibSsMEihgtyps26H0/W3H4N1xrgFK9AsXREp1s94XduILWDev1Fm8Q0WgXV8Sr87aXN8qZeVGQTUXcka9t9/m2g8=",
+      "badges": [
+        "PROGRAMACIÓN",
+        "LENGUAJE",
+        "OPEN SOURCE"
+      ],
+      "id": "000013",
+      "verified": true
+    },
+    {
+      "name": "Git",
+      "info": "Sistema de control de versiones distribuido. Esencial para desarrolladores para gestionar código y colaborar.",
+      "enlace": "AnTPRuXypINXpmyePVMRY5Pm3UsV9lRUqJ/AdLkBA5o6tK/8KGJ9NfNckySmo6wChEchP3Q0+HmKAo5rkjP/sRzvfXy7myHmlEfXNTA32f5zwVh25bHxTEb123sDf+Aoyg==",
+      "badges": [
+        "CONTROL",
+        "DESARROLLO",
+        "OPEN SOURCE"
+      ],
+      "id": "000014",
+      "verified": true
+    },
+    {
+      "name": "Node.js",
+      "info": "Entorno de ejecución para JavaScript del lado del servidor. Ideal para aplicaciones web escalables y APIs.",
+      "enlace": "AigHg5PaUA0MMJM1NhME0IoOVKp5EuD5n8sCtLNgeqZS84IZaVIq815Bk0uALGRfvD8v9Nb5PHm1AVRud+Bx55QDjmInSdRvc5dpGu1uw4gj89EERXmDD7QWiLcqsFNYNQ==",
+      "badges": [
+        "JAVASCRIPT",
+        "SERVER",
+        "OPEN SOURCE"
+      ],
+      "id": "000015",
+      "verified": true
+    },
+    {
+      "name": "XAMPP",
+      "info": "Paquete de servidor web Apache con PHP, MySQL y Perl. Entorno de desarrollo web local completo y gratuito.",
+      "enlace": "AoqlVBpxCWV2lKoNMFbtf3fkmIB4aANrQ0iS27GBb3oEFNDrdlbyP1ewmz27UuForGD7DbUZlyaq25Kwv2kWOoKpLUpp5UsepQKvjLGF1UdTXbxAHvC78Gs4qjS7J5F5O0JOWY3c2z9BzVMKFyMhoYc=",
+      "badges": [
+        "WEB",
+        "DESARROLLO",
+        "SERVIDOR"
+      ],
+      "id": "000016",
+      "verified": true
+    },
+    {
+      "name": "ShareX",
+      "info": "Suite de captura de pantalla y grabación avanzada. Captura, anota, graba GIFs y sube automáticamente a la nube.",
+      "enlace": "Av7zZaJ3YjLmuNPCHfHCT/WOuIstIM7VosqXmSr5OXksXHtpYPxQDlZZBhnaEuZ0LQSomtIvRZKDhbt9lBOIBS1S+hJLWU+KRZmQUfXv79keYenK9uy3RW5agJVrYIzYbg==",
+      "badges": [
+        "CAPTURA",
+        "PRODUCTIVIDAD",
+        "PANTALLA"
+      ],
+      "id": "000017",
+      "verified": true
+    },
+    {
+      "name": "Greenshot",
+      "info": "Herramienta de captura de pantalla ligera y potente. Captura, anota y comparte fácilmente.",
+      "enlace": "AhHAugNcdpTwUv6L33AOMyJIeI/eIcuq2b8wmBJJ8zKnSrTdKk0BaF00tMeMSQLY4TEUXNj2dieqlRZQsRIuH2cqKP0BZxiS4EPq/XETV3Wn1wC3C1h+IwDIiNXNBIo+Gw2NmOVpSfGRtqt2tjwh1VA=",
+      "badges": [
+        "CAPTURA",
+        "PRODUCTIVIDAD",
+        "OPEN SOURCE"
+      ],
+      "id": "000018",
+      "verified": true
+    },
+    {
+      "name": "Everything",
+      "info": "Motor de búsqueda de archivos instantáneo para Windows. Encuentra cualquier archivo en segundos.",
+      "enlace": "Aki9fN6AK4Rp+qfXr3xhF09pMcWUCZncylEZBU8++k2W869xwTk0yjp8hBsQeRcUZny0SXcyy1ucG1BVwmmbgOeL7tiMr1mckUO9NyXkE09sDhjfcULeFHgm4iwILh/EgywXilzJnRIABCn9xuaVHYI=",
+      "badges": [
+        "BÚSQUEDA",
+        "PRODUCTIVIDAD",
+        "RÁPIDO"
+      ],
+      "id": "000019",
+      "verified": true
+    },
+    {
+      "name": "KeePassXC",
+      "info": "Gestor de contraseñas seguro y de código abierto. Almacena tus contraseñas en una base de datos encriptada.",
+      "enlace": "ArMf6d3VwNRDdbdiTP78JXl6RVFTJTf/07b3KPGxkDzU2MIcifJWXEJFQHXLItXEoqWSbKA2j/AxypI0M4OgNPdZ4mtjBVhvjNIM25LpV/v1G4yw4m23nG71OJK/ms3KqQ==",
+      "badges": [
+        "SEGURIDAD",
+        "CONTRASEÑAS",
+        "OPEN SOURCE"
+      ],
+      "id": "000020",
+      "verified": true
+    },
+    {
+      "name": "Malwarebytes",
+      "info": "Potente antivirus y anti-malware que protege contra amenazas avanzadas, ransomware y sitios web maliciosos.",
+      "enlace": "As6nZDpbRwklDmhJQ2yDwc+isBjN5jk6b4LJ/YJnhZ0C8DTgGHKzVj+FqvXQQyMBeY47Eh/gNY/U8TZQcEQZIXzhYF0rm/MXYebOb8j2ZL1U1x/BRJb/0c33FhDfhgdkDTLztLOHUe6OUgzY65RLx5Y=",
+      "badges": [
+        "ANTIVIRUS",
+        "SEGURIDAD",
+        "PROTECCIÓN"
+      ],
+      "id": "000021",
+      "verified": true
+    },
+    {
+      "name": "qBittorrent",
+      "info": "Cliente de BitTorrent gratuitos, de código abierto y sin anuncios. Interfaz clara y bajo consumo de recursos.",
+      "enlace": "AtC/cjS/fAGGMYZtZ1WJ0/tlZrCRhZJv1o0xt/J1iv/pLyjAHoJr80aseHq0h0uAw7GNUkKwjpy9hjkxS1rlN6vLtNGQhwCCboRwaij/KXNvTdeMKP2jW8EpbQ8JXy8iTzZ/HuN2biuGmBUN+z5uJn8=",
+      "badges": [
+        "TORRENT",
+        "DESCARGAS",
+        "OPEN SOURCE"
+      ],
+      "id": "000022",
+      "verified": true
+    },
+    {
+      "name": "FileZilla",
+      "info": "Cliente FTP, SFTP y FTPS gratuitos. Transfiere archivos de forma rápida y segura entre tu PC y servidores web.",
+      "enlace": "Anv6KM8A+D7GQXypgG3YmuOR2wMs22rO2QWAYd+TnCqr8QEu1M1XtzfkE+yV/HZbP2uM6tAuXLD6+x58UrAVN7g3xuemXAgArCQ6qZ7ex0eD8sd/kueFdeL9nndeENtm3lb5wjzUS3wD+r41m/ZDXYo=",
+      "badges": [
+        "FTP",
+        "TRANSFERENCIA"
+      ],
+      "id": "000023",
+      "verified": true
+    },
+    {
+      "name": "BalenaEtcher",
+      "info": "Herramienta confiable para grabar imágenes de sistema (ISO, IMG) en unidades USB o tarjetas SD de forma segura y sencilla.",
+      "enlace": "AhJaTF9V3YCItUeqsjHv23qfNYC2RtB+afbap7iU39WLCdNWTlggemu1qw+/tHHJVTN2yzd7jbZOYvNduAkKEMzbIXmhklCHStBl1SOm56xwkxC3DCHnVoEGEvv85xbYb4/4CO84ysA0sC3yla/hZSc=",
+      "badges": [
+        "USB",
+        "HERRAMIENTA"
+      ],
+      "id": "000024",
+      "verified": true
+    },
+    {
+      "name": "Rufus (Windows)",
+      "info": "Herramienta ligera y rápida para crear unidades USB de arranque desde imágenes ISO.",
+      "enlace": "Ap3jk+fjVxiiDba2Xv2TVM7UlysXZQOzOOoB3NCT4YTwL6fHqRkUbPWfGMj317q9BnfQvcNNb3hJOrW55wT/DK6a+5EFdJr1SDpernstjQ8N1qCgj+WUvu3bBWx9/TMoMQ==",
+      "badges": [
+        "USB",
+        "HERRAMIENTA",
+        "PORTABLE"
+      ],
+      "id": "000025",
+      "verified": true
+    },
+    {
+      "name": "CPU-Z",
+      "info": "Muestra información detallada sobre los componentes de tu sistema: procesador, placa base, memoria RAM y gráficos.",
+      "enlace": "AnhyAlaiGW3X7B3DF9fX6HiORZWD+dhFV8Q4p6+GsHcjohWtbaevdSKDivj14+jnErWJrkgROdsrI02CGZ1nfCIGnyJV6HCEpzo0m4leHW4V9qp7tN2HgRj4VwxQJZmiNVfDbOdAXs8heWnCXBEX6xM=",
+      "badges": [
+        "DIAGNÓSTICO",
+        "HARDWARE",
+        "INFORMACIÓN"
+      ],
+      "id": "000026",
+      "verified": true
+    },
+    {
+      "name": "CrystalDiskInfo",
+      "info": "Monitoriza la salud de tus discos duros y SSD. Muestra temperatura, horas de uso y alerta de posibles fallos.",
+      "enlace": "Aj6G7NcpRLdzIte3/AqM/6QEXPTfdwkh2Nvth2QW9MIsnBY92UsMa7f5DrO0LU+Bag1G8SoJKuWNJCmm+GftuAZ0xIIZ4Kn/s2LsFIFdverM1pGu5OoYbNdMSz40z3DVfa6X6LvJMU1m133asrvfJZA=",
+      "badges": [
+        "MONITOREO",
+        "DISCO",
+        "SALUD"
+      ],
+      "id": "000027",
+      "verified": true
+    },
+    {
+      "name": "Defraggler",
+      "info": "Defraggler es una herramienta de desfragmentación de disco desarrollada por Piriform. Permite desfragmentar unidades de disco duro para mejorar el rendimiento del sistema al reorganizar los datos fragmentados.",
+      "enlace": "AhH5HshgWfp8jVRhpDCZPDqhJVexG3WG1OO3myQG9ni46emch2+kX7oa7wkx/sgwYkuTvLSBHH0a1m31/npZNA2mJFTh+DkUCG/2jYZXmAQ1K5vE3RUoqnw2S3L/afjEJdl2KZ90FdeSiaU84Uneifw=",
+      "badges": [
+        "DESFRAGMENTAR",
+        "OPTIMIZACIÓN",
+        "DISCOS"
+      ],
+      "id": "000028",
+      "verified": true
+    },
+    {
+      "name": "Smart Defrag 11",
+      "info": "Herramienta especial para optimizar y defragmentar el disco. Compatible con Windows XP hasta el actual.",
+      "enlace": "AjiUiYs8JpGYAWyC0l9RcOxwMB5K6TGAWedg1z7b9DFaPxTcOvi6/T0K+Pw9B4DJjNS6ipc8GavW1/Llt6xdghGy7sphi9bZ+8/naad7sWiwUsuUcD8hXPyugHCCn6LOSdcrygissPQtS4IZkmoU0k4=",
+      "badges": [
+        "DISCOS",
+        "DESFRAGMENTAR",
+        "HDD"
+      ],
+      "id": "000029",
+      "verified": true
+    },
+    {
+      "name": "3DP Chip",
+      "info": "Identifica automáticamente el hardware de tu PC y descarga los controladores necesarios de forma rápida y sencilla.",
+      "enlace": "AtLajYVI7QXmapLRsu9lHCk2SBRg4niXz7R0Y2722DsdYp8u/DLThLa11JIZofnzngQ6F97Gt2yxbkMzdBRQusVhYzrlD1hG5RU+iFgv6mpB47B2MPlShEB7wEG9TuDCXRR613YldhT8dA20wQmfkbM=",
+      "badges": [
+        "DRIVERS",
+        "DETECCIÓN",
+        "WINDOWS"
+      ],
+      "id": "000030",
+      "verified": true
+    },
+    {
+      "name": "Driver Booster 10.3",
+      "info": "Herramienta especial para actualizar controladores en sistemas antiguos. Compatible con Windows XP y hardware difícil.",
+      "enlace": "AplhIRc6Il1Dik+fSGy1ryC+O47O/aYkE79nXACcRZCBXtWRuIBPHjozJ/RRDkZgdRSQWvJMhm/DeTIydF0WC/drIOjqNtTEibRvZHjeeAUg7Mi5bbFJSZOaEF7iZWHCEfYVdzEsYprjt8b+GRJJmlk=",
+      "badges": [
+        "DRIVERS",
+        "WINDOWS XP",
+        "COMPATIBILIDAD"
+      ],
+      "id": "000031",
+      "verified": true
+    },
+    {
+      "name": "Java para Windows",
+      "info": "",
+      "enlace": "#",
+      "badges": [
+        "RUNTIME",
+        "ESENCIAL",
+        "WINDOWS"
+      ],
+      "id": "000032",
+      "verified": true
+    },
+    {
+      "name": "Instalador de Dependecias",
+      "info": "Instala automáticamente todos los requisitos (.NET, Visual C++, XNA, DirectX) para que programas y juegos funcionen.",
+      "enlace": "AojXRZKpSRw+0Xeqce6EXLXhqF5VDGYObi3RhRngUMxLAPYGCxJdthNPtM3M9vSX6ryRKLUtnmiD5kp7TDrQ2/X5TSpGSjoc4JcNMgfLVntdp9/o5NP44CIuAs7JraZ/t4ZjK87/899DLVFdLV28Hew=",
+      "badges": [
+        "RUNTIME",
+        "ESENCIAL",
+        "WINDOWS"
+      ],
+      "id": "000033",
+      "verified": true
+    },
+    {
+      "name": "Office Professional 2016",
+      "info": "Microsoft Office o conocido actualmente como Microsoft 365, es una suite ofimática de aplicaciones para computadoras de escritorio",
+      "enlace": "AkrhVLBPnxMp2LGKWwxHrIHOm7nkPozsG8nn3EUsMbDQluBcKX+tel1zGuW7BkhZ7Ldzy8dNDfg56Zy48QwGWE+y5Nk6/UBRAzwvh220U7NI4Y78gd3tOvxpaYehPbS4DBM+mVI4gSup2CSNkCvEwPM=",
+      "badges": [
+        "OFIMÁTICA",
+        "ESTUDIO",
+        "SUITE"
+      ],
+      "id": "000034",
+      "verified": true
+    },
+    {
+      "name": "Bandicam",
+      "info": "Es un grabador de pantalla para Windows que es famoso por ser tremendamente ligero. Si tienes una tostadora de PC o no quieres que el Minecraft se te pegue mientras grabas, Bandicam es el que es.",
+      "enlace": "Avqubv05Q1oEwbJXKgi/o/YSHkMIiE95Atl3sGYvpj8Oe6dpeT2CoYZWGI1+MM+7Y/qBYJde9kLjMq/uuancgAMbnSrh6wmPxtMacolwxogWnbVk7LLQi1GPTnApj/9PYVnO/373SIgAMu7tGg4IHx0=",
+      "badges": [
+        "GRABADOR",
+        "PORTABLE",
+        "LIGERO"
+      ],
+      "id": "000035",
+      "verified": true
+    }
+  ],
+  "sistemas": [
+    {
+      "name": "Linux Mint 22.3",
+      "info": "Sistema operativo de escritorio amigable y completamente equipado. Perfecto para usuarios que vienen de Windows.",
+      "enlace": "ApQ2wLaUuqQVAwW5ag4UgXQgneglcBIxeVBLyjbHxFX1etQaSCyDg5ZGXoEvAspriTVnznzAvMoQg6tNaHlpQDsTvP5B4MfZ7yaiZv7mGbvS2gwo0M0R5wewfHh8LxjePIdMlGgTs+M+83/72VrzWxg=",
+      "badges": [
+        "LINUX",
+        "ESCRITORIO",
+        "AMIGABLE"
+      ],
+      "id": "000036",
+      "verified": true
+    },
+    {
+      "name": "Arch Linux (64 bits / x86)",
+      "info": "Distribución Linux de última generación con un enfoque en la simplicidad y el control total. Perfecta para usuarios avanzados y entusiastas en hardware.",
+      "enlace": "AmfzQ8StgVOagnEP30+5uL/BVBCjnQZk58pfPVuHfIwFXUUgWMq98/KgSLVpCwcCVcugwdDwM3zq2SgYoq4yCtRjfSwlHsln3FQdy4WByDLGRyHD99cq3/v2CwuasMVkGw==",
+      "badges": [
+        "LINUX",
+        "AVANZADO",
+        "SIMPLO"
+      ],
+      "id": "000037",
+      "verified": true
+    },
+    {
+      "name": "Debian (AMD64) - Instalador por red",
+      "info": "Instalador por red de la versión estable de Debian para PCs de 64 bits. Sistema Linux robusto y confiable.",
+      "enlace": "AiL7twxw2euJv8cWsZPmidPDEnGJXrwCLBGLdBGTjRTIWOxCi125iCfTYgLVr+sfIVXIteb+QbZsnu+wkLOKIAH67rWyAjp2+kAk3DX7a4b2+0FYQLWW/yNi8ogz8FjeVZ4pbZ6FrtSxcc7AHLk3kz1UWGzoli7IQ6Pkl5kCsZjm",
+      "badges": [
+        "LINUX",
+        "ESTABLE",
+        "OFICIAL"
+      ],
+      "id": "000038",
+      "verified": true
+    },
+    {
+      "name": "Loc-OS Linux 24",
+      "info": "Distribución Linux muy ligera, ideal para darle vida a hardware antiguo. Incluye las aplicaciones básicas necesarias.",
+      "enlace": "#",
+      "badges": [
+        "LINUX",
+        "LIGERO",
+        "HARDWARE ANTIGUO"
+      ],
+      "id": "000039",
+      "verified": true
+    },
+    {
+      "name": "OPTIOS 10 (VERSIONES 2026)",
+      "info": "",
+      "enlace": "#",
+      "badges": [
+        "WINDOWS 10",
+        "64 BITS",
+        "OPTIMIZADO"
+      ],
+      "id": "000040",
+      "verified": true
+    },
+    {
+      "name": "OPTIOS 7 ULTIMATE X86",
+      "info": "",
+      "enlace": "#",
+      "badges": [
+        "WINDOWS 7",
+        "SP1",
+        "OPTIMIZADO"
+      ],
+      "id": "000041",
+      "verified": true
+    },
+    {
+      "name": "OptiOS 8.1 ENTERPRISE X64",
+      "info": "",
+      "enlace": "#",
+      "badges": [
+        "OPTIOS",
+        "OPTIMIZADO",
+        "WINDOWS 8"
+      ],
+      "id": "000042",
+      "verified": true
+    },
+    {
+      "name": "ReactOS",
+      "info": "Sistema operativo de código abierto compatible con programas y controladores de Windows. Alternativa libre a Windows.",
+      "enlace": "AlRinLv5avtGLiHe0/RgprquLbWxH/JyKO8gyaSuneGJcatbHDOIBpwO85S3qYmjFrVhenFg8O0yhXy65XYah6zr6uuuIaR9JY0XGIf71oBRX7RNdnOYqw/6egIlQ2CYag==",
+      "badges": [
+        "OPEN SOURCE",
+        "WINDOWS"
+      ],
+      "id": "000043",
+      "verified": true
+    },
+    {
+      "name": "GParted Live",
+      "info": "ISO live para gestionar particiones de disco. Redimensiona, copia, formatea y recupera particiones sin instalar sistema.",
+      "enlace": "An63xt1DEs2QrEPwIYHeVBcB+okbeTKDqYcpWudO6lmlDOHVuXwEf5KsAE80QsoKFjtyzlAF6DLgAKJVW1z7/XeKAGX/EXSTymnlfyn98ja+KijesiwqLO6mxBgj5hsdX+T0zVKzH2hSXnC36L94WYg=",
+      "badges": [
+        "PARTICIONES",
+        "RESCATE",
+        "HERRAMIENTA"
+      ],
+      "id": "000044"
+    },
+    {
+      "name": "Ventoy",
+      "info": "Crea un USB booteable y copia múltiples archivos ISO a la vez. Arranca cualquier sistema desde un solo dispositivo USB.",
+      "enlace": "AsTg3YwnFnllbQGaPJOwKxIDMtGkQ+hop45Q3K77FxWGz0M8Qxg2zQpsKo58tcaVk9wpmIsevysG+esZ3zGWgzit15vKvVCGrK/BNyuVhDUG3Ui42z5kuSenUFH7hWXVyIKD/x0NB/YS6pliDqDxLSg=",
+      "badges": [
+        "USB",
+        "MULTI-ISO",
+        "HERRAMIENTA"
+      ],
+      "id": "000045",
+      "verified": true
+    },
+    {
+      "name": "Hirens BootCD 15.2 (MBR)",
+      "info": "Kit de rescate esencial con más de 100 herramientas para reparación, diagnóstico y recuperación de sistemas Windows. Contiene Windows XP Mini y Linux",
+      "enlace": "Avq8vp0hgIpOvDW45dx3jDJVUuKLBPn7NIK8e4ZnvEAkvydfUIhiIKJDSI6GIaPRCtzCX/lvPrKPMcRPDo2rDdTLp/7GGLpqs2gr/4kSj/lPsL/dJ5GXpm3x+EqKdV+Yf/MpF3ahm6KPQkphV3J0DyiDVuRR4lOfJurmwap4WuJli8aNCvHeQVHDJbIOOGDOCA==",
+      "badges": [
+        "RESCATE",
+        "HERRAMIENTAS",
+        "DIAGNÓSTICO"
+      ],
+      "id": "000046",
+      "verified": true
+    }
+  ],
+  "juegos": [
+    {
+      "name": "Age of Empires II",
+      "info": "El rey de la estrategia en tiempo real. Dirige civilizaciones históricas y conquista el mundo en esta versión optimizada.",
+      "enlace": "AmECKy2sXBJ9Txw3FsoB64nYEj9ABl8ZJyq9xHowdzQYlobb9hdGqMwPNbvsBUw+mgXWPwwSiK9VcMLi2A/nw6Jqqodq84hfdEeksYMQi+ZZ1Ehc/2yov+Yudj67Kmafa8bILRxJ5Hxez8LwDU3PYuY=",
+      "badges": [
+        "ESTRATEGIA",
+        "CLÁSICO",
+        "PC"
+      ],
+      "id": "000047"
+    },
+    {
+      "name": "Angry Birds PC",
+      "info": "Lanza pájaros con un tirachinas para destruir las estructuras de los cerdos en el clásico original.",
+      "enlace": "Ak6Z0tl6oLBk++Q6AJYKDl06/HdGA5qd7BZ3Eft89Wi6dcyEUYVyEzPTnB9z15YQ12ltdfel9c25fSXqIMruQ+MOuSOWYiuz7lj3HZBAqZ6qfskVf6Fj7mcVN/uqwEq5lLSMnpehVCB/KKJ364AOINk=",
+      "badges": [
+        "PUZZLE",
+        "CLÁSICO",
+        "DIVERTIDO"
+      ],
+      "id": "000048"
+    },
+    {
+      "name": "Half-Life 2",
+      "info": "Es la continuación del videojuego Half-Life, una videoaventura de disparos en primera persona.",
+      "enlace": "#",
+      "badges": [
+        "ACCIÓN",
+        "AVENTURA",
+        "DISPAROS"
+      ],
+      "id": "000110",
+      "verified": true
+    },
+    {
+      "name": "Halo: Combat Evolved",
+      "info": "El inicio de la saga del Jefe Maestro. Combate alienígenas en un misterioso mundo anillo.",
+      "enlace": "AoOvKVo3Ud7iCLHHb4hXHgRI/oq0+8vfdIb+VBBvR6Cv73goOjapu1nz1j4roBuBBNiPsnLpPrkhZ1vFoKIo2Zvi/uXLSGcLB10VHHc2TXsEyVHT++jmvqen3zfKXlqnL6xIWiwjGKVwK0J1U4lyIrE=",
+      "badges": [
+        "ACCIÓN",
+        "FPS",
+        "CLÁSICO"
+      ],
+      "id": "000049"
+    },
+    {
+      "name": "Assetto Corsa",
+      "info": "Simulador de carreras realista con físicas avanzadas y una gran comunidad de mods.",
+      "enlace": "ArbJYm6bbm07iClLqYeB88IpndcXkQIvdNJboKlf2/OShARMTVzX0moDPHY733q59Dh0lgAuQLxLZvvHgUzOwUFxY3PMnUedEQe1gUzn1YNlM56DRozXYAaq5yvPeygdmqE9g8hBDFbF81LFxMSf6ts=",
+      "badges": [
+        "CARRERAS",
+        "SIMULADOR",
+        "REALISTA"
+      ],
+      "id": "000050"
+    },
+    {
+      "name": "Legacy Launcher",
+      "info": "Lanzador alternativo para Minecraft Java Edition. Estable, rápido y con soporte para versiones antiguas del juego.",
+      "enlace": "AmYbutcg0oD4NqtCYhHGVcWbJlhdkCi8jiz8CJahKcB6B0pRXU+TQuwaC61v0y6IWZRWpijbuw9bxkQh2mrPpO9+w+wdZaOxo+5eCIZsEemIEBcPna8W3sSrApT1ZwyciA==",
+      "badges": [
+        "LAUNCHER",
+        "MINECRAFT"
+      ],
+      "id": "000051",
+      "verified": true
+    },
+    {
+      "name": "Litecraft 1.18",
+      "info": "Esta es una modificacion de OptiCraft Bedrock 1.18.31 para agregarle mayor contenido y mejorar el rendimiento.",
+      "enlace": "ApLebOWqeTAQ3pyHcLh44XluRY7MTuTdCN1FTZQU7P9WIpy2/gthsTr/cT6BedAXcV+rFW0PJdolvaGkfVaUMrV1YDUlw/tTCfRMrPwVYrNeZOBHJF+W4CjAOoyZgo4ulpBpl3LRUFACA1RYaprIPlY=",
+      "badges": [
+        "TOMEX y OPTI",
+        "BEDROCK",
+        "OPTICRAFT"
+      ],
+      "id": "000052",
+      "verified": true
+    },
+    {
+      "name": "Hollow Knight",
+      "info": "Hollow Knight es una aventura de acción clásica en 2D ambientada en un vasto mundo interconectado. Explora cavernas tortuosas, ciudades antiguas y páramos mortales.",
+      "enlace": "Av9pD2NFjW1blDdHIIZIYfb4A5SFTMKIvHrP7LwRL2vRAqp875JVKPAndH0byjumwRFrhD3Bmgi3YjpXHSy9nCjz8FhHFWeUghldwf9mndqNUDyG3cFbg7YihSD0yNDjvr+Uzi1lxEtpNlPy5FsQcw4=",
+      "badges": [
+        "64 BITS",
+        "ESTRATEGIA",
+        "PLATAFORMA"
+      ],
+      "id": "000053",
+      "verified": true
+    },
+    {
+      "name": "Hollow Knight Silksong",
+      "info": "Hollow Knight: Silksong es un videojuego metroidvania desarrollado por el estudio independiente australiano Team Cherry.",
+      "enlace": "An4ZGHCRcM4QWn5C6AxmaACR9BXARpgN7t+Z/AhjeBB24mvmS3EOCmIK8+Dgv0DT4x89K7vLuI7GYZqIfo8nMK9yhfctr188b4Ytl9EJ3APYFhC6InaPqObfNjaOHqM0p9IHCU4NT45O2yCGS2vVIeQ=",
+      "badges": [
+        "64 BITS",
+        "ESTRATEGIA",
+        "PLATAFORMA"
+      ],
+      "id": "000054",
+      "verified": true
+    },
+    {
+      "name": "Fruit Ninja",
+      "info": "Es un juego donde tienes que cortar frutas para acomular puntos, pero ten cuidado con las bombas",
+      "enlace": "AoSabZIgl610bJsIHhjQYwOWM5rIuIYWc5XSnDYwCeLPaTVN06A2NgH5Ms1CtkutHd1tntD02AmlnCbMekX0eS+XX8pxinPCWcd+DzyLM0zCBpxm7fjykc1iO8Lh0fCutO9bJuJSSMCc7KNP6kvS5ms=",
+      "badges": [
+        "ARCADE",
+        "ESTRATEGIA",
+        "POBRECRAFT"
+      ],
+      "id": "000055",
+      "verified": false
+    },
+    {
+      "name": "Cuphead LITE",
+      "info": "Cuphead es un videojuego perteneciente al género de corre y dispara",
+      "enlace": "AsHW+aFgqS1B1CnNnsWiJ/1ZqACAk85BN3G/se0EG3v41YcNDFrSsIav0VXHBULwiyS+NBojvD+L5E9+FvV1ykNNb3Bot0eHOwr1P1oHf93Nm8oUPbmW4+ECU2UcueTuBw9kUdS8mk7ytPK+6z4mo5o=",
+      "badges": [
+        "PLATAFORMA",
+        "ESTRATEGIA",
+        "CAFE XD"
+      ],
+      "id": "000056"
+    },
+    {
+      "name": "Counter Strike 1.6",
+      "info": "El clásico de disparos tácticos que definió un género. Multijugador competitivo y miles de servidores activos.",
+      "enlace": "AvhtJYcKGChcMyf7kewJqLan9C/UwN7Y6jfqdAD/oOKzAzxGulWADYQ1MNStle6j6lLiYeo05TmCvnkH+B6Vdf8LcWfwnit6FktRxcgByERHMUsQZF2iq2f8URxVi+dmioWILqi5oAlDCp8goZZDuhg=",
+      "badges": [
+        "FPS",
+        "MULTIJUGADOR",
+        "CLÁSICO"
+      ],
+      "id": "000057",
+      "verified": true
+    },
+    {
+      "name": "Geometry Dash 2.2081",
+      "info": "Juego de ritmo y plataformas desafiante. Supera obstáculos al compás de la música y crea tus propios niveles.",
+      "enlace": "AueZ5pm7f5EhIF13W2SiVKPxfomHeF/Hdgqhu1wbryNYOAsktV8Cz9gCLaa2rRpBJO+RjQh8wDrL8EfvAdmp3w6F17x10dR76Jc/jPJtACmOWCnHHpJ9/lnJmGU3/FIAxyBQeUz9BgYF59QOxeB5hvk=",
+      "badges": [
+        "RITMO",
+        "PLATAFORMAS",
+        "DESAFÍO"
+      ],
+      "id": "000058",
+      "verified": true
+    },
+    {
+      "name": "GTA: San Andreas",
+      "info": "Es un juego de mundo abierto,donde tendras que completar misiones para tener el respeto de tu banda",
+      "enlace": "Ar/HpotPv+3gDOQ19r3cYjKMviN0tpivvzEryh4K1+VGBMiqy3qK4Iym8rGX04popG1CWvIVlFKvVpfK56cmr5UzwuSAeHw/2KkYqLJ1uTz9s5qaPf5D/MISqAU+PCG3yeZLzFVPAvymNH/GGJZYPk0=",
+      "badges": [
+        "ACCIÓN",
+        "ESTRATEGIA",
+        "AVENTURA"
+      ],
+      "id": "000059",
+      "verified": false
+    },
+    {
+      "name": "GTA: Vice City",
+      "info": "Vive la era de los 80s en este clásico de mundo abierto. Coches, crimen y una banda sonora inolvidable.",
+      "enlace": "AmZd4TUL9CO9rhCxmMwZm+ZiiVDSIm5tr8O9FRP0Q9k+x2Pe7ILWxprMlNE9fJh97P9z8VD2XSg27Uc05us1eqrfkL+aZnOopvRJAp/HBIs1ue9uYYddLOb2PcKeqXR13m8ad7331hQR13t+I35Jf5Q=",
+      "badges": [
+        "DISPAROS",
+        "MUNDO ABIERTO",
+        "GTA"
+      ],
+      "id": "000060"
+    },
+    {
+      "name": "Half Life 1",
+      "info": "El revolucionario shooter en primera persona que cambió los videojuegos. Una aventura de ciencia ficción épica.",
+      "enlace": "AqEa+25CJ17BRK1q49+tbd2FjqEJSlARyCXt1KwOGWrlKIF4QSXwSKeMec3fSfyzKv9C9JvKvHsikIg6tI0reOLX3ClW2J3mNDFHgFkW0PGHKQ8uYSZYDrlRMaGwHCZf5UG0G5+B2pnFVB7GuCC5JZI=",
+      "badges": [
+        "FPS",
+        "CIENCIA FICCIÓN",
+        "CLÁSICO"
+      ],
+      "id": "000061",
+      "verified": true
+    },
+    {
+      "name": "Among Us 9.22s",
+      "info": "Juego de deducción social. Encuentra al impostor antes de que sea tarde.",
+      "enlace": "AvP6Dt2/QpGBCEpVDRnknX1fRf1b6sarw6xQbcv5gQncyVdbb/gEyesk3hLguahkwXMH1COaf8Of/ryEstC71FkUFJWQm4lOvB2q8WccH9BzwaF2as4wN2mMNp8ccbKlNblPUYWu9qu4rfciq3EU+FE=",
+      "badges": [
+        "JUEGOS",
+        "ONLINE",
+        "SOCIAL"
+      ],
+      "id": "000062",
+      "verified": true
+    },
+    {
+      "name": "Five Nights at Freddys 2",
+      "info": "Es un juego de sustos donde tienes que sobrevivir de los animatronico por 5 noches",
+      "enlace": "AnUPaEVVauZGgDLpDWgMTiGsDzSZJbA4BdUitmbvC5uLdAy3MyiwnTgNR2AmGZcSPdSpzYf+NOnHl14G0PC3Uw+FPkNP23J4C9IrrNYH1L/wDxqs3Icmp52LdP9hNWKGybB8iti+FG71/i9k3OfvHNM=",
+      "badges": [
+        "GRATIS",
+        "PORTABLE"
+      ],
+      "id": "000063",
+      "verified": true
+    },
+    {
+      "name": "Assault Cube",
+      "info": "Shooter FPS gratuitos, de código abierto, estilo Counter-Strike. Multijugador online y offline con bots.",
+      "enlace": "Apmck25QIOPmKDK94rWMWz613WHZYohhA+AwVvdTDq/CsALKUH/InSuQTW5WY1dOfe4QqGFBwBUpRd4hJvvGl6H7OR38yt3KGm+GK1x/KvSCHb1i3HYzadO2yLqyDH3/E6KL4Rhlj0MShwQdC9hJeWI=",
+      "badges": [
+        "FPS",
+        "OPEN SOURCE",
+        "MULTIJUGADOR"
+      ],
+      "id": "000064",
+      "verified": true
+    },
+    {
+      "name": "OpenTTD",
+      "info": "Simulador de transporte de código abierto. Construye y gestiona tu imperio de trenes, barcos y aviones.",
+      "enlace": "AhHZL6uaWBjpF9EDdbQ2jAdCWEQURqIymuHNLsLMVj7M21cggyQTI37epLaLZkUXzc75tbWYr6CJ6GLuMehyWP8H0aLUwT3XL6VwITBPBnKTvPLdeZTH2CChvSP6JOIxYef++g0l5+A/IIbXfNH1Po1lknIYiIMHq5WrMhB7gkuD",
+      "badges": [
+        "SIMULACIÓN",
+        "OPEN SOURCE",
+        "GESTIÓN"
+      ],
+      "id": "000065"
+    },
+    {
+      "name": "SuperTuxKart",
+      "info": "Juego de carreras de karts en 3D, gratis y de código abierto. Divertido, con varios personajes y pistas.",
+      "enlace": "Aj0qqOUZwC7/6AXrdd74vsAh5QIZrPDfSELSCfIlujZ3M6C89fgQWGKDq5JVRvU+zeCFgwcob+dhPr5wBbIVGRSfIPjjY7PVMLahDCis1PpWtv46dGYJQWJDDA3EmJYiy6DA7T/DnxC5tCE1+KH48bE=",
+      "badges": [
+        "CARRERAS",
+        "MULTIJUGADOR",
+        "OPEN SOURCE"
+      ],
+      "id": "000066",
+      "verified": true
+    },
+    {
+      "name": "Papas Pizzeria Collection",
+      "info": "Un pack de juegos de cocina que marcó la infancia. Gestiona tus propios restaurantes",
+      "enlace": "ArgDG+cxkfE0yVPNkLwyiVBS4QZoARAnxQY34w/te5iudm5nfvp+jNj2gLLnN4MPKo/J07YPkikFx3ohuSffqrbvQArFnOgPzU0Lrij/QcxYqapx+hR+Bsim6thMetkY9bZCdVSoos2SwnBYR4rrjko=",
+      "badges": [
+        "COCINA",
+        "CLÁSICO",
+        "GESTIÓN"
+      ],
+      "id": "000067",
+      "verified": true
+    },
+    {
+      "name": "60 Seconds!",
+      "info": "Juego de aventura y supervivencia con comedia negra. Recoge suministros y rescata a tu familia antes de que caiga la bomba.",
+      "enlace": "AgS7K0Kgn4BIw7Zq31DaMdAJcU8locA7/zfN7QLcYhB+ghwXUFyiwGJ7+M9dgZMmnhxw5v5tEJOYtzgEv/MLkAHChYN3vT6UCJvT+Lxmw8SgNw0/TJpMTuEFSprvStRGBt+LAK19Err1WQHqj2Nmge0=",
+      "badges": [
+        "SUPERVIVENCIA",
+        "ESTRATEGIA",
+        "LIGERO"
+      ],
+      "id": "000068"
+    },
+    {
+      "name": "SCP-087-B",
+      "info": "Es juego de las escaleras infinitas, en los que pueden sentir que un screamer aparecera de la nada.",
+      "enlace": "Au0Gm61VqwjOQOeuKeigiNMnQ+hWyeE/siZKanPhG0ErrCTB6/S/Ie1jfpXcVakYETvb3ss652UT1sCCMr7tnOLqxjSdMD4fFT/S52oiUx+7DGLDQp0XxpxVUmDP6TRZPCgC7MAYJSmxUKOQ3R44FzQ=",
+      "badges": [
+        "RETRO",
+        "TERROR"
+      ],
+      "id": "000069",
+      "verified": true
+    },
+    {
+      "name": "Undertale",
+      "info": "RPG independiente donde tus decisiones determinan el destino de humanos y monstruos. Ligero, emotivo y con múltiples finales.",
+      "enlace": "AiSYtI7SHE/bokKBz7I2mWHSDZrSDo5Qf85e2oyjPiIuLnjxuf1LwQ1cQxLKU24GhVMCTYZnSVFuSdhxxbtb6GCnAEEZk1pEciEglN+H5IIO3JBjaxcUhD0xwU9vGDce3bcbHMBjfU7u8grlrpq2hE8=",
+      "badges": [
+        "RPG",
+        "INDIE",
+        "LIGERO"
+      ],
+      "id": "000070",
+      "verified": true
+    },
+    {
+      "name": "Celeste",
+      "info": "Ayuda a Madeline a escalar la montaña Celeste en este plataformas de precisión. Una historia emotiva sobre superar desafíos.",
+      "enlace": "AiB1yY/47rxOZik7u5MspSsz0BArjeojPQ9TR1GNj/F/ZaqAWpcBr1W4fpmu/pDWsq4R/8OtkzO/6oxxM03eJlXSqA9RC0NSX1qIKoaumPtElcV12bbcEE1e5PEYc4YzGgNGotUnLRfDspQNCPTnLkA=",
+      "badges": [
+        "PLATAFORMAS",
+        "INDIE",
+        "LIGERO"
+      ],
+      "id": "000071"
+    },
+    {
+      "name": "Terraria",
+      "info": "Sandbox de acción y aventura en 2D. Explora, construye, lucha y crea en un mundo generado proceduralmente.",
+      "enlace": "Ag2m1DtqnNxhJkjNH+7SM1LINOC3m6RmDCNV5SUVuK1r0mGP6AkyohrHi6ODWnog5bMODZLO2g2nH5v3TNoYlYEtprhhJko5wU4Msg1ggsnrbP9aNUdFQVMTyQ11vEZEzdB6nEH/JK9wr1AnL9ft4k8=",
+      "badges": [
+        "SANDBOX",
+        "AVENTURA",
+        "CONSTRUCCIÓN"
+      ],
+      "id": "000072"
+    },
+    {
+      "name": "Stardew Valley",
+      "info": "Crea la granja de tus sueños en este RPG de simulación. Cultiva, cría animales, pesca y establece relaciones en el valle.",
+      "enlace": "AmZMVl8aFXIkwnAWGbe1EZHfXXEwlp2nSt6rF0ekJnxClba/iQbDQ0c8g9eKhEt5SHOjrVOXrVSObRwEJdcg1NyNwaymcInAZury56LZOU5pndouRWEqOBaHd5hxB5RP9QrTmZoKCpVfhvy7M3R8Wkg=",
+      "badges": [
+        "SIMULACIÓN",
+        "RPG",
+        "RELAJANTE"
+      ],
+      "id": "000073"
+    },
+    {
+      "name": "DOOM 1 y 2",
+      "info": "Los clásicos shooters de ciencia ficción que definieron el género. Dispara a demonios en Marte y en la Tierra.",
+      "enlace": "ApM2xwRcgWNy7pvhb/cMWTmZ9DhP4iSJyKkqGGbfkYtqPZX9WsBSBhZThfl4VWIO2AeyWvBZyc/FhZFmsme8eVpRDEG7/j5dzixt43qci4xDhEuQWk6fnFw2MEpXpBDSlu3UGVLLfeU8Z6vwg2J+Fzc=",
+      "badges": [
+        "FPS",
+        "CLÁSICO",
+        "ACCIÓN"
+      ],
+      "id": "000074"
+    },
+    {
+      "name": "Hotline Miami",
+      "info": "Acción arcade intensa con estética retro. Descuartiza enemigos en este juego de ritmo rápido y combate brutal.",
+      "enlace": "AvzoYo87c1aP4ZEDkm1IRUNDJp0wDdYlc6rTX4A1CoP6nguq+mUhhSvbe0sKfoFlTvRWrdPYXi6hu+XRxrOIIwBpZ9k7sqgGawljfXWj3pX55DnHTL2TIPbDWbSJlSJJwqTx2+mchyB3hkIvRMcCWvU=",
+      "badges": [
+        "ACCIÓN",
+        "ARCADE",
+        "LIGERO"
+      ],
+      "id": "000075"
+    },
+    {
+      "name": "FIFA (Versiones)",
+      "info": "",
+      "enlace": "#",
+      "badges": [
+        "DEPORTES",
+        "FÚTBOL",
+        "MULTIJUGADOR"
+      ],
+      "id": "000076",
+      "verified": false
+    },
+    {
+      "name": "Limbo",
+      "info": "Aventura de puzzles en un mundo en blanco y negro. Un niño busca a su hermana en un paisaje oscuro y atmosférico.",
+      "enlace": "AhDtyMazQV38JIw7Mx3pJhMXFMRlEtCpsMN/fn3dpaJIcMWQdSZ+Yqsk3HuqkcSZ/B64cJnYuXagbogViVD+DwlNYFJ/ruQE+agbGhGEdnoaqikDqXEbzwe/WMlbvyq/ANvapfUJetZkKIarUTjNBSo=",
+      "badges": [
+        "AVENTURA",
+        "PUZZLE",
+        "ATMOSFÉRICO"
+      ],
+      "id": "000077"
+    },
+    {
+      "name": "Dead Cells",
+      "info": "Metroidvania rogue-like de acción. Explora un castillo en constante cambio con armas y habilidades variadas.",
+      "enlace": "AkIlA+WJYWpy4xJlzUMjsk2RCbJOrHhk2SaX+GYwnPc9KgHVW2aPmyjA1pPAC457/1EAlKriH5edq//45h/pxgy/CNcxJCXPwN6d5sUq/ghFpaCBm/kr89LQFMH50F7gYE7SbEBN6Nn4tt3KlVAK0Ck=",
+      "badges": [
+        "ROGUE-LIKE",
+        "ACCIÓN",
+        "METROIDVANIA"
+      ],
+      "id": "000078"
+    },
+    {
+      "name": "Portal",
+      "info": "Puzzle de física innovador con armas de portal. Resuelve acertijos usando portales para teleportarte.",
+      "enlace": "AhgTY0IYc2N8AVuM66Lr+l3OJt8q1V7tcJKNyT4Tba1ysQyhBbMTSAfUpvPzU2v47hIN6ANIxRds1LKh1MkZmfgq/RIVdtEN0Z9wNx1Uk2SwrnwhS5XmlGdYXAyr7XMnGyJc7uP+4cD+VN7Mrhi9Biw=",
+      "badges": [
+        "PUZZLE",
+        "FÍSICA",
+        "CLÁSICO"
+      ],
+      "id": "000079"
+    },
+    {
+      "name": "Portal 2",
+      "info": "Secuela del clásico de puzzle. Nuevos elementos, cooperativo multiplayer y una historia emocionante.",
+      "enlace": "Ah53BjbdwjzjKUhW08SjkEVzO7SeNdLDYwqjY2209YmHkPbCZr3uZqZ0N00mncAC1XtgYqzyDioeh5/GPYYs+kPHK8dwO2esifST/bLlOmPWag1GJPnm8loNJELHliLgin9isa+CfJXrXw2H0jIZyqg=",
+      "badges": [
+        "PUZZLE",
+        "MULTIJUGADOR",
+        "CLÁSICO"
+      ],
+      "id": "000080"
+    },
+    {
+      "name": "Plants vs Zombies",
+      "info": "Defiende tu jardín de zombis en este juego de torre defensa. Un clásico de PopCap Games.",
+      "enlace": "AsjOKxu6xHgq5+sFt8+0zPbpf1ueBd+hs9RQ6tqPUBRyI3Ieq/COIuMGLV2Bbaqybtq2+iiGn18fwmW0jkki1422hJXgd2okT497DAtvChIoeacS5pMEtHVEzmQmTP5QWddaxJjWULzm+AG2YV+1bc4=",
+      "badges": [
+        "DEFENSA",
+        "CLÁSICO",
+        "LIGERO"
+      ],
+      "id": "000081",
+      "verified": true
+    },
+    {
+      "name": "Bloons TD 6",
+      "info": "Torre defensa con monos y globos. Defiende tu territorio de los bloons en este juego colorido y estratégico.",
+      "enlace": "ApQNATh/32TTWcq/JN2iWoUFC5QlefdDJCcMih3DIJkziOfQ/XRDi/Qg1UoRYakJpGTAd2ZXjP09MMLW9M0Vbo72UTH0nFa5ejwV2YGfW2nIC87OX+0YFwP/SYDcvERwgQ==",
+      "badges": [
+        "DEFENSA",
+        "ESTRATEGIA",
+        "MULTIJUGADOR"
+      ],
+      "id": "000082"
+    },
+    {
+      "name": "Brotato",
+      "info": "Arena shooter rogue-like donde controlas potatoes. Dispara, esquiva y sobrevive en oleadas de enemigos.",
+      "enlace": "Ah8RsgMpQUKFuO2TcC3h+wRw1NuP42Fy2B97f+6v+ScpnDSmtd7LnxQBjLjbJoxnibElclnS80mD0ILdxTE8JfggOu4RGarnuE71lki0yMrTBQp49gTIWDvjeDKkq2N3R+ZtT9oSdOH25pDNCISygXM=",
+      "badges": [
+        "ROGUE-LIKE",
+        "ARCADE",
+        "LIGERO"
+      ],
+      "id": "000083"
+    },
+    {
+      "name": "Balatro",
+      "info": "Juego de poker roguelike deckbuilder. Combina manos de poker con efectos destructivos para vencer a rivales.",
+      "enlace": "ApeepMWgwihnqrKvFgrPjp604aoEPGsKWzdehiWowgnxgs9h9H25sEJ8UbsPLZCr4g50nAxo8HeNPpb+4jgMa1X2x3RicQoVAaBdsUoki4vFyBx6rcoxamWnhjERhQizVwS2MNkrqAaCwe/Nko2x/Zg=",
+      "badges": [
+        "CARTAS",
+        "ROGUE-LIKE",
+        "ESTRATEGIA"
+      ],
+      "id": "000084"
+    },
+    {
+      "name": "Friday Night Funkin",
+      "info": "Juego de ritmo freeware. Derrota a tus oponentes en batallas de freestyle musical.",
+      "enlace": "AnTFoW2n6awuzt5ywjhnOUYnH81eeZsq1zACRLVys6cghih4vpV937Jgk7RolwM+B3prK4URwpwZHsw5thVPL6p5UOGVkcmGwUn2VN5rbHfoNYlaEYYXasz6CtasmLTOPZRfS1i7ORYxcrqFcwMcvzI=",
+      "badges": [
+        "RITMO",
+        "INDIE",
+        "LIGERO"
+      ],
+      "id": "000085"
+    },
+    {
+      "name": "Pizza Tower",
+      "info": "Plataformas al estilo italiano. Recorre las torres del pizza en este juego humorístico y vertiginoso.",
+      "enlace": "AhsvdEJA18SryACdy+9UXUH7krBAshUoq0HFN2L2jxFakViPNSDXcS3Mm1VsO5y5PGO98xnGtYVGcClVqQaZjHArxvuOZz0QX9wA34+uMaZxjHKCTVe98ZHKekheiajpP9v1f3QiIYPcDV6l9cxfZ4o=",
+      "badges": [
+        "PLATAFORMAS",
+        "INDIE",
+        "HUMOR"
+      ],
+      "id": "000086"
+    },
+    {
+      "name": "Super Meat Boy",
+      "info": "Plataformas de precisión ultra difícil. Guía a Meat Boy a través de niveles imposibles para rescatar a su novia.",
+      "enlace": "Ag2MFDFC40+WnNtgQdXNH++edxREvQPP3gfQPL9P//uaMCNNbgUejMhX+vLNqutpD74rJI1w7Ot0jhcogH5Q6tCn4tiuw/8sFZY5HM1pNTWHQ6/w/f6A9V369qtRucr+jx2MkREr+vdJYKNE5NavZts=",
+      "badges": [
+        "PLATAFORMAS",
+        "DIFÍCIL",
+        "INDIE"
+      ],
+      "id": "000087"
+    },
+    {
+      "name": "Sonic Mania",
+      "info": "Juego clásico de Sonic con niveles remasterizados y nuevos. Velocidad, anillos y caos en este plataformas.",
+      "enlace": "ArcnvjSEWVdvBkMtLlOZlAeIhfXBk5wHRqoqcEMGG6JJ/CYKJ5/LxUayWS/jCHPpLfHl5MkS1SAml+PsOEts4gswuroCWak/fcUqpZ2hZihhP1yx6A5/28RphfWDYj+eyP4zveg8ZtWpaF+wv8i1KL8=",
+      "badges": [
+        "PLATAFORMAS",
+        "CLÁSICO",
+        "ACCIÓN"
+      ],
+      "id": "000088"
+    },
+    {
+      "name": "Untitled Goose Game",
+      "info": "Eres un ganso terrible. Molesta a los habitantes de un pueblo inglés en este simulador de caos ave.",
+      "enlace": "AiIsHb91CQ1Ehda6VpIkiL4Fe5Iw+dps+qALGEWmcQiA4RTM5ga9VTT3ppnX3NDOaAqhkJrWWsqj1UfYVoTqqlu2jGgg18S0MeMpKPKL1uMtPQNsx+XE/GWkaeCzVQfsnQnq3dEYyq3ds+L1vYBZuP0=",
+      "badges": [
+        "INDIE",
+        "HUMOR",
+        "LIGERO"
+      ],
+      "id": "000089"
+    },
+    {
+      "name": "Slime Rancher",
+      "info": "Cría y colecciona slimes coloridos en tu rancho. Un juego relajante de exploración y gestión.",
+      "enlace": "Ak6X3jMZgdyWtigI9RUzmTw+ViSYBixbxQnwuXfISCA9h4XTxj5shKTTOsRnUeaFeRXsoHUuhN1ztNzMYXvRSA18xe7/VvEIVBoRMpW0qT5c1paif6plqckA1GJ4bx2/P4csGF7ht5cg7gox8PH4o/8=",
+      "badges": [
+        "SIMULACIÓN",
+        "RELAJANTE",
+        "LIGERO"
+      ],
+      "id": "000090"
+    },
+    {
+      "name": "Rogue Legacy",
+      "info": "Metroidvania rogue-like. Cada heredero tiene defectos genéticos únicos. Explora el castillo una y otra vez.",
+      "enlace": "At8sm3VsoO99e3rLbY2/67o3cPAYKAlCqwDUM5ttZO65Ujyvq/kO1sMXodkEXb7cMCH8pGFn4qDNLXOByeVQBe7N/hmqn3ZtUv3R27W3m9qPZzVJykCZoX3hTvDA498LE9u9QeRz6bVhjxaT5gColqw=",
+      "badges": [
+        "ROGUE-LIKE",
+        "METROIDVANIA",
+        "INDIE"
+      ],
+      "id": "000091"
+    },
+    {
+      "name": "Getting Over It",
+      "info": "El juego más difícil del mundo. Usa un martillo para escalar montañas y superar obstáculos imposibles.",
+      "enlace": "AuojcKRa+15PEVotaMGVJ2oWwir8Nh/hb+p6Xw4jebtspUTy8jAAbFfrsTo4mjtliobsU5h6Ow6lq82SUBjGT7SdGTDxStAEk52mUsFsxRd49tfvDMvXAXZMbBnrxlWAtXEyqoIafq904lRzpYPz728=",
+      "badges": [
+        "PLATAFORMAS",
+        "DIFÍCIL",
+        "LIGERO"
+      ],
+      "id": "000092"
+    },
+    {
+      "name": "Happy Wheels",
+      "info": "Juego de física con vehículos defectuosos. Crea niveles personalizados o juega los clásicos.",
+      "enlace": "ApXSW9jB68fG1yvCpymEWLbsMDt6NQfXopQa19I0TXfbENSbtpX05FOpqPRt6U2JrtphVZEd0Rwn4M41qKKXHalUbp93nAT4PxY6Zr9UXbpxX5LjxvJOwpHn4uqXz4zueuw0EqeepvAkPGjyGBgAk4s=",
+      "badges": [
+        "FÍSICA",
+        "MULTIJUGADOR",
+        "LIGERO"
+      ],
+      "id": "000093"
+    },
+    {
+      "name": "The Binding of Isaac",
+      "info": "Dungeon crawler rogue-like. Un niño huye de su madre loca religiosa matando monstruos con lágrimas.",
+      "enlace": "AiTWtlb8JrxHc53NXWDf1BcO7kkJvIx01zR/9ihRCFgBESDAa7kDngFriTWbb7KF+SjwtPwujWc0AMxsUy08XrmG7y4CHR6HddvlJQLURojQw4VGrMxR9j9KzavO3QmP/tEmzzcL5BBdT/aGYvQxSnI=",
+      "badges": [
+        "ROGUE-LIKE",
+        "ACCIÓN",
+        "INDIE"
+      ],
+      "id": "000094"
+    },
+    {
+      "name": "Ravenfield",
+      "info": "Shooter estilo Battlefield pero indie. Combate en mapas extensos con IA y vehículos.",
+      "enlace": "AlBjVo3NZTeS1y8jT0I/I0w0my1f+P/LDOVXdHvaxQ0wDpI+5OMwD+ZBvk6CnzUiOB5e+5gcYqQPdV/FDlC8V+9CvIaQ80ZbcqRih5i4lEWe8kXsTlil3s0AFKx3mYvu8LmsjIcqlE0oYJnl8/7s8Ug=",
+      "badges": [
+        "FPS",
+        "ACCIÓN",
+        "MULTIJUGADOR"
+      ],
+      "id": "000095"
+    },
+    {
+      "name": "Project Zomboid",
+      "info": "Supervivencia zombie hardcore. Gestión de recursos, supervivencia y un apocalipsis realista.",
+      "enlace": "Aj+2G9FcUGNwHUdtK+1K678BXTIzMO5QPEspFQhseQ9cLNfGpICJKIGz9d/GlySxxRHKDbTo7pCMPE4Z0P/zRY9CaAhRw9AZuVPFFNCBi0PoCEcB5fwY1Oo3XryuDP/ODN0q/n757Yc2NpfuVioxHSA=",
+      "badges": [
+        "SUPERVIVENCIA",
+        "ZOMBIS",
+        "SIMULACIÓN"
+      ],
+      "id": "000096"
+    },
+    {
+      "name": "Among Us",
+      "info": "Juego de deducción social online. Encuentra al impostor antes de que sabotee todo.",
+      "enlace": "AqzYwD8qo7Euaq8EopLoH2weKzI4UbKQvKiNwl4mosbLqJqdfrS4pNd7tzawaH2/xWu5Qd8cgBfsea6qShN/7av5BnvwHZiA0u1GLO8xjSdv3zfqgX8WT/g0991Ihy8pf8XiDgzPkxN1s3vuqxualt8=",
+      "badges": [
+        "MULTIJUGADOR",
+        "SOCIAL",
+        "ONLINE"
+      ],
+      "id": "000097"
+    },
+    {
+      "name": "Subnautica",
+      "info": "Aventura submarina de supervivencia. Explora océanos alienígenas y descubre secretos bajo la superficie.",
+      "enlace": "AuDlvZaYe6I9/vUj7frrz9NVJXlGHpmmMzEz3JBfdbugc0h4H0DHiIlqNtqy2qq23VueKggiVh+E5NfXFpMH2428bEB+y1RUjTDvFItcVbNlqNfrTuCT3tTgdgAfob9D5g+p+UaUo+XWUBxmGBFK0uo=",
+      "badges": [
+        "SUPERVIVENCIA",
+        "AVENTURA",
+        "EXPLORACIÓN"
+      ],
+      "id": "000098"
+    },
+    {
+      "name": "Phasmophobia",
+      "info": "Juego de horror cooperativo. Investiga fantasmas usando equipamiento paranormal y documenta evidencia.",
+      "enlace": "Ar+aiVXiKHPWpP4+fPuIfCT9uwYBBCfAdKrOf/ov8hr5WHn+qvKVuia9rEefPS0eK1jl/O/eB5WnQbMI2v4tqyZkE2I79JuRZplT9fLknFIQRKyxLuqCEf/OK5PnnMsN4ESRpGb5Wt8C9mt2IO9SOIU=",
+      "badges": [
+        "HORROR",
+        "MULTIJUGADOR",
+        "COOPERATIVO"
+      ],
+      "id": "000099"
+    },
+    {
+      "name": "Cult of the Lamb",
+      "info": "Juego de rogue-like y simulación. Lidera un culto de seguidores en un mundo oscuro y retorcido.",
+      "enlace": "ArfmC41P+H/3fCgCYiDWz+yaznkKDoc4psRQGs1AZ8AOe9Mev+Cvx0GJ8EnhNr7JTlFMR16LBH6sfGlRr2dPM16JI4xJAksQsihWVM4l8CQ6PhdwHFqYBjR2qGD4j4PZjihr4eUJ4lzp1YE0QN8h8eQ=",
+      "badges": [
+        "ROGUE-LIKE",
+        "SIMULACIÓN",
+        "INDIE"
+      ],
+      "id": "000100"
+    },
+    {
+      "name": "Dolphin",
+      "info": "El mejor emulador de GameCube y Wii. Juega tus juegos favoritos de Nintendo en PC con mejoras gráficoas.",
+      "enlace": "AkDcglA12Lp9KjI+3D2aHKT/l3kTpIKoz6eBH2uFrPIk8dG+lvXFKKFDrU3hzrktq355qvysm3xYyCclpO6V37tX56QYQ6EcbBDob9PdvB1mYGGbH9GqNRGU0swFuLpkC/XcAwlVQc9hMNbwAj1aCZA=",
+      "badges": [
+        "EMULADOR",
+        "GAMECUBE",
+        "WII"
+      ],
+      "id": "000101",
+      "verified": false
+    },
+    {
+      "name": "PCSX2",
+      "info": "Emulador de PlayStation 2 de código abierto. Juega tus juegos de PS2 en PC con compatibilidad alta.",
+      "enlace": "AgPznkNir8HhmnkVtAS2ETg0IvfJ/s1tnfT+4cO0rzduh6xi0H3mu9Oe2KS158pfnEV3LnHTQKFfn8dKAXPd3M7Vgsa/tqhzbWnNhSKx6k+b0T6fW33xh4KZ+JqGLX+mHA==",
+      "badges": [
+        "EMULADOR",
+        "PLAYSTATION 2",
+        "OPEN SOURCE"
+      ],
+      "id": "000102",
+      "verified": false
+    },
+    {
+      "name": "PPSSPP",
+      "info": "Emulador de PSP multiplataforma. Juega juegos de PlayStation Portable en tu PC, Android o iOS.",
+      "enlace": "AqEoROA8WimI7nr9mVGbaGTo1A8piAlZ8s5bt8+IQ6hUNQvWHQJZ1GjLBcksIbXegrlttHp6ZXJUtvPk/i/6rci+2ZnwaQbi6mEvHv2H7v1EEVXiMUZJglI7PYSzoFfNST+Y1PFDoa7H3dCGmzyRaic=",
+      "badges": [
+        "EMULADOR",
+        "PSP",
+        "PORTABLE"
+      ],
+      "id": "000103"
+    },
+    {
+      "name": "Yuzu",
+      "info": "Emulador de Nintendo Switch. Juega juegos de Switch en PC con rendimiento variable según el hardware.",
+      "enlace": "Ass257kIP+35GVyJJSe7MEYRtDO+iceyq3e0Izp3Isgq4FzHmVkKLVB9PDjIAcxjhYSlVdP4kJrfrTnKlFU6r2sMdhcL17o09szliVarh2OK5WIklvoI1jF7OYe2M3EYMw==",
+      "badges": [
+        "EMULADOR",
+        "NINTENDO SWITCH",
+        "EXPERIMENTAL"
+      ],
+      "id": "000104",
+      "verified": false
+    },
+    {
+      "name": "Citra",
+      "info": "Emulador de Nintendo 3DS. Juega juegos de 3DS en PC con soporte 3D y mejorar gráfico.",
+      "enlace": "AhY9LcuLLokR6aBajIqpfVoiCBiliTK2ZVuOYrKS+4n27JKHpqWwt/o7c+hlEH+gJS5vWexzYe0BnhYSOcsi6rQW9ZVROq447AEm2K8T5kpfb5OGTWTCG6fQcs5/auLEK/WkOIM5fG4KqlX+gLUeADE=",
+      "badges": [
+        "EMULADOR",
+        "NINTENDO 3DS",
+        "3D"
+      ],
+      "id": "000105",
+      "verified": false
+    },
+    {
+      "name": "Project64",
+      "info": "Emulador de Nintendo 64 popular y fácil de usar. Juega clásicos como Mario 64, Zelda OoT y más.",
+      "enlace": "As/qNW50e3GJ2PdTTCzL7TW2/Q8GqD9uq5orSX9oqaQf6VC6bKRPiq446Ywd7ARB/WsCLrzh8w7mvMGe4mevXggEO/wOxhSOrrtJik5XFUMWqUoG9qH4W9x/e/vADD9OguJ+r9rEZpY/t4XCm4vtHtQ=",
+      "badges": [
+        "EMULADOR",
+        "NINTENDO 64",
+        "CLÁSICO"
+      ],
+      "id": "000106",
+      "verified": false
+    },
+    {
+      "name": "DeSmuME",
+      "info": "Emulador de Nintendo DS de código abierto. Ideal para juegos de DS en PC.",
+      "enlace": "AqJaA46dTa0MduekbOCUGF8QoL1d5hxuKLLIINo2aJh2vBqybBWDMBbzabWcGJh9mFc2KdmGZqJqW+0r1WvT3oZaXs9YUo6790UWnKlX5/bhkYgQDZQzMFPIvd32z5s7V5hYA/aFZBN1qum5hiRi88I=",
+      "badges": [
+        "EMULADOR",
+        "NINTENDO DS",
+        "OPEN SOURCE"
+      ],
+      "id": "000107"
+    },
+    {
+      "name": "MAME",
+      "info": "Emulador de máquinas arcade. Juega cientos de juegos de arcade retro.",
+      "enlace": "AqKVFa6PAwSmn2dhkFWNcTMIDgSK7KPWMEawYfJ6hcICno48uR/67jxHUzLHxo7HJkalOgCLI+K7QaEu9ypgAk5tODQPvTtk/JOeQqQCOTz4CwaMmzp2qM5bE65HDR4aB97Cnzw+wcHfp2Mqa9lnSGY=",
+      "badges": [
+        "EMULADOR",
+        "ARCADE",
+        "RETRO"
+      ],
+      "id": "000108"
+    },
+    {
+      "name": "RetroArch",
+      "info": "Frontend unificado para emuladores y juegos retro. Soporta múltiples sistemas en una interfaz.",
+      "enlace": "AuAkTVAdKwvF3zLKboiqTiHHuzyZhogKVEDTfooTYfFUVAK2WQCt17ZM5gopwZBqPp0IHg/U4cnXwLNPpHgdt4Xg70REEkxkKGKUOUqtjuVaGEOtu6iyCzrSC/zRV4Ns2mFgTVE7kHR07b2yKw6vl/c=",
+      "badges": [
+        "EMULADOR",
+        "MULTI-SISTEMA",
+        "OPEN SOURCE"
+      ],
+      "id": "000109"
+    },
+    {
+      "name": "Battlefield 1942",
+      "info": "El clásico shooter de guerra a gran escala. Lidera ejércitos en batallas épicas de la Segunda Guerra Mundial.",
+      "enlace": "AmLzG3ClmEK3LKvii07u8fk746EZMmNroF4EUgmt8oDpAwdzdCBdvm5s9s7h7+cuMzxi80vP71VWbVV+S5Re6Lf56NWTNpH44XUqQWRV0TUKH7YcY67xa63iaxhz6wv8aEI7DtlcNkIedRdEyEObftA=",
+      "badges": [
+        "FPS",
+        "CLÁSICO",
+        "PC"
+      ],
+      "id": "000111"
+    },
+    {
+      "name": "Battlefield 2",
+      "info": "Acción militar moderna con combate vehicular y mapas extensos. Una experiencia táctica legendaria.",
+      "enlace": "AmcK2wOjfLWoU+b/NVUQw3M0XLPB8Q3z2dRAK6PbCgyvbblDh/0ha9Q9ZnEDRb2YDEA2fMNtlKB1lfoayf4NOjt3S7jjCh8ecfQG3K0oKz1z+aFqj+bi+yWt2ka4pLeFIE2JZmPBv/nLmJLug0NMfHU=",
+      "badges": [
+        "FPS",
+        "MODERNO",
+        "PC"
+      ],
+      "id": "000112"
+    }
+  ],
+  "apks": [
+    {
+      "name": "Brave Browser",
+      "info": "Navegador web rápido y seguro con bloqueo de anuncios y rastreadores integrado para una navegación más fluida.",
+      "enlace": "ApWxZ/xGbKy2VMmHJa1NXM75pF8VkIBaL6O8SCD52H0gqmRGUixYcEzne4BrdW6PN0cidkA3FZwccPoXHf237V0TvpLa6EAWqq1TazQ1NYF6noEf80ig9iCYXHuYPXPf+lsXcRcDvH51kyxds8kTBtE=",
+      "badges": [
+        "NAVEGADOR",
+        "ADBLOCK",
+        "RÁPIDO"
+      ],
+      "id": "000113"
+    },
+    {
+      "name": "Es File Explorer PRO",
+      "info": "Gestor de archivos avanzado con funciones premium desbloqueadas para organizar mejor tu almacenamiento.",
+      "enlace": "AoB0zIW+CA0CHEJri5emFvzz0Xu0KDXzf5MIJ96nhRlhhGAa1gxtv3aZPAfXtPImzlqmqM6S/8aTzna+PNjKOmfBsBNoF2qs96bKOYbbbgZXE33Xe7Mf4dAYY7zAvPp2qxLYNPZgRgtVeFBPFg6YukA=",
+      "badges": [
+        "UTILIDAD",
+        "GESTIÓN",
+        "PRO"
+      ],
+      "id": "000114"
+    },
+    {
+      "name": "IP Webcam Pro",
+      "info": "Convierte tu dispositivo en una cámara de red con múltiples opciones de visualización y seguridad.",
+      "enlace": "AhHqv1U+IrHTyLgFV7vrRdSRIfUSwbflpRkzr9EH1XSkqDVpxlzbTsllxnVgOZ6lh6O99ixlECjDeFEXZlQvgv9W9QBVGM7BolvmUSsf+lhbzd/VS8kCy2UTSkoskP4HohDv+U4qAc9uGOTKmVddSF8=",
+      "badges": [
+        "HERRAMIENTA",
+        "CÁMARA",
+        "PRO"
+      ],
+      "id": "000115"
+    },
+    {
+      "name": "ZArchiver",
+      "info": "Potente gestor de archivos comprimidos. Crea y extrae formatos como 7z, ZIP, RAR y muchos más.",
+      "enlace": "AhpridP+0q7wbmcBrT9yaCqc4HnvH/aRuxg8DFZI2zxIpxjPqDc8DblrXsCYwCHhAKW0clBbQX5kwfeem3imJUFfgNbhdNVt8GmZ0CJNfRrliPYxprxM1mheuxZ66vp7IPq7hGBk1IDIXCNcVURqN1w=",
+      "badges": [
+        "COMPRESIÓN",
+        "UTILIDAD",
+        "ESENCIAL"
+      ],
+      "id": "000116"
+    },
+    {
+      "name": "Root Booster",
+      "info": "Optimiza el rendimiento de tu sistema, batería o estabilidad mediante configuraciones avanzadas de CPU.",
+      "enlace": "AlHaWMLMKs9cJslRnaWNA5DtNEyUs1gOe956ZBrQ9er7+uTWD1kjr6JqJ+UB8h13KC6QnnIw9FPfuazPPBXq8cp0WdQjZYqFSZxnPNgjmDbwoNu99jbfO1T9/zgSnRxhljuj16dYw2H+kPfy2XfA244=",
+      "badges": [
+        "OPTIMIZACIÓN",
+        "ROOT",
+        "RENDIMIENTO"
+      ],
+      "id": "000117"
+    },
+    {
+      "name": "Link2SD",
+      "info": "Herramienta esencial para mover aplicaciones a la tarjeta SD y liberar espacio en la memoria interna.",
+      "enlace": "Amqlx0pBWq8iQWfUGq59vk1opPl67VfPz6PXJPypgQWQDvpyKEuSF8kRNExG3bW464YUW4TaFciuHu3XM8kkncSxSDsjnqv5r26SdHT9aYNyppguC5U4j0SWhTssrRaTSxKl/KwuDxnlN+Wt8K6xnko=",
+      "badges": [
+        "ALMACENAMIENTO",
+        "UTILIDAD",
+        "SISTEMA"
+      ],
+      "id": "000118"
+    },
+    {
+      "name": "TikTok: Revanced",
+      "info": "Versión modificada de TikTok con funciones adicionales y sin anuncios para una mejor experiencia.",
+      "enlace": "AlzTb+RedOZTgtJDq8QQSjtM2lpnx98NYL5H9H7fiWDsE4SrP5PrTPU1xvSSisVhills24yltf3V2eGEg6ZQh+bb0ojAgk1wq13xsel0xquIrmpLIrmViWsE4S+55VNyurd6aStYT+ciGF9Jq4IySZA=",
+      "badges": [
+        "SOCIAL",
+        "MOD",
+        "SIN ANUNCIOS"
+      ],
+      "id": "000119"
+    },
+    {
+      "name": "Craftsman 0.15.10",
+      "info": "Una versión de construcción muy ligera basada en versiones clásicas de Minecraft, ideal para dispositivos antiguos.",
+      "enlace": "Aso5YMvwfdvm6N/pNKeAoh2v2l3hTqBKx9Xxss0rvW6xVWrU6VW0vWuvFVk1xqkwSN9+7nqtNILEfvDWBLFGK4xFsMgREDFm4i/UJ/VaLuPoRRnht7dX+bde162Olcqbev9syC0zGkapQ7xQqFKWC6Q=",
+      "badges": [
+        "MINECRAFT",
+        "CONSTRUCCIÓN",
+        "ANDROID"
+      ],
+      "id": "000120"
+    },
+    {
+      "name": "Termux",
+      "info": "Emulador de terminal y entorno Linux para Android. Ejecuta comandos, instala paquetes y realiza tareas de desarrollo.",
+      "enlace": "AtUfzmRvbdSD8T7gWVlu5HO5PAiLwTU6u+01cXmSb2VtpwmO0hKyhzPZUWESyU3Rzr3DtiRPx6niFqTeVKDmDFiICRICduoA04vtEsCGaBUbKCNhRgxYlvQ8pUjlQlLsrImnIqY/xFfAKHRNJRSu94E=",
+      "badges": [
+        "TERMINAL",
+        "LINUX",
+        "DESARROLLO"
+      ],
+      "id": "000121",
+      "verified": true
+    },
+    {
+      "name": "F-Droid",
+      "info": "Tienda de aplicaciones de código abierto para Android. Encuentra apps gratuitas, libres y sin anuncios ni rastreo.",
+      "enlace": "AmyePr/peK8+l/lSgKuxRX+yMedh7JM0hPjTAP3CyJExlNq5NPt4pWIyRXnCcEJSY5M+VmKkcBe27tZBSBmTs/WiXE0xO0zMCkmA9Fr0a+mgtd5u2CaLBzc+w03viy2/gg==",
+      "badges": [
+        "TIENDA",
+        "OPEN SOURCE",
+        "PRIVACIDAD"
+      ],
+      "id": "000122",
+      "verified": true
+    },
+    {
+      "name": "Stardew Valley APK",
+      "info": "Crea la granja de tus sueños en este RPG de vida rural. Versión completa optimizada para móviles.",
+      "enlace": "AoK7HN0Kt0c8AFfenXgC57lQrt8GvZCdl/fNFArIPxVV4PYJvOwpprpB9/PW/SWtQmIG3CcNCUYVZHD+Nd2qhxN1vNWgGLHyDml2hZN1qgYlfTcejBp1BmkkNm8cjj3TvF6JBGD3y49rOW+eNlmQgaI=",
+      "badges": [
+        "SIMULACIÓN",
+        "GRANJA",
+        "RECOMENDADO"
+      ],
+      "id": "000123",
+      "verified": false
+    },
+    {
+      "name": "Aurora Store",
+      "info": "Cliente alternativo de Google Play Store para descargar APKs de forma privada y sin servicios de Google.",
+      "enlace": "AgjbypZMQTJWvK9JfaSoOQS+JHsI6CDBC91cIwtM6tHavFZQe6PxwfICF0kEePbZSPKqyqOlh6aKXc+/NfKECXm3uAACKhOwQzYXNEYTeG3bUT8iL6YdlmEN3gdHKYT23tdLxb6NBhN8rL6HN731dmSHbrBkgoJBoBhn0lzfSj5A",
+      "badges": [
+        "APKS",
+        "ANDROID",
+        "TIENDA"
+      ],
+      "id": "000124"
+    },
+    {
+      "name": "NewPipe",
+      "info": "Cliente alternativo de YouTube. Sin anuncios, reproduce en segundo plano, descarga videos y no requiere cuenta de Google.",
+      "enlace": "Ar3jxnpewRWGBVLDGnOlXnz+H8lpqPHJY5xudzp2klmNnmqO4ZVTuw8Fnjb7V0zzLR5Jb5y/LaOkRGO2fVrPttE42S0IR3WxJw20nwun8BR2HUB8cwrXMFk0YKPNwz+NPA==",
+      "badges": [
+        "VIDEO",
+        "PRIVACIDAD",
+        "ALTERNATIVA"
+      ],
+      "id": "000125"
+    },
+    {
+      "name": "Kiwi Browser",
+      "info": "Navegador web basado en Chromium que permite instalar extensiones de Chrome de escritorio. Rápido y personalizable.",
+      "enlace": "AnhEIHTjzOF3+095Pn/ZgjjV4XquYDDqbCfAi3/G3uhSUSlNMu0z3A+oVjMDDVEHTp0dSHxPnnycHgT8pGHFyK+gVcYmGcTMYFvEavCpZpbjw7HloGekgnXSqug8r7FPZw==",
+      "badges": [
+        "NAVEGADOR",
+        "EXTENSIONES",
+        "RÁPIDO"
+      ],
+      "id": "000126"
+    },
+    {
+      "name": "Simple Mobile Tools",
+      "info": "Suite de aplicaciones simples, limpias y sin anuncios. Incluye calendario, galería, contactos, notas y más.",
+      "enlace": "AuMo6Chqg4jwqbrPZuM081k73U/llefmN4k61AoyIj/98ewfgnMbZ7ZGOAUU4e5AevurSnKLhw8fmcnrftTV/3gPX5hTk8sdnOcW2ct+7pYL8SAYfXn9oCvx4EIl0LWZmtQ1GwHae4q87AJ0T4DTRIo=",
+      "badges": [
+        "SUITE",
+        "LIGERO",
+        "SIN ANUNCIOS"
+      ],
+      "id": "000127"
+    },
+    {
+      "name": "PPSSPP 1.19.3",
+      "info": "Emulador de PSP (PlayStation Portable) para Android. Juega tus títulos favoritos de PSP en tu móvil con alta compatibilidad.",
+      "enlace": "An1VMcxoR+LfqY6XhzdyKhxBu5EAPxXLseAIs1ZjyZO8DO0LzI0BRFvgV7VKfl5lbRYinPhi1YHRQeGZbNLddBlqZomMz1eamCYa1sFT4ke3r0ajKXjVbPK+1M3QSmnPH9MdN4MNgXs1lLZp+QQeI8E=",
+      "badges": [
+        "EMULADOR",
+        "JUEGOS",
+        "PSP"
+      ],
+      "id": "000128",
+      "verified": true
+    },
+    {
+      "name": "Minecraft Bedrock 1.21.130",
+      "info": "La versión oficial de Minecraft para móviles. Construye, explora y sobrevive en mundos infinitos con todas las características.",
+      "enlace": "AlDrneJvDKirCVDfE8ugRjig1o/LLbaNnqNupTVw2X6uzBnFCIg1YK6ug+vu5CZQ5q965+Vj4CKXTwQH+Mp2Ut1RfwvisiHd7rcXxB7npT/X72De4vrMCH/XNGr4sUZVJ/b//95aoSrK7JJDRrJXQxePY4BYLCgd3aOVzf9idoeQ7ebq5uw2L7iQz/l1CuDUwg==",
+      "badges": [
+        "JUEGO",
+        "SANDBOX",
+        "OFICIAL"
+      ],
+      "id": "000129"
+    },
+    {
+      "name": "PojavLauncher (Java)",
+      "info": "PojavLauncher es una aplicación de código abierto que permite jugar Minecraft: Java Edition en dispositivos móviles Android",
+      "enlace": "Ah9mulbbljyZWmTAXWaQLeA00/1LXmv/jm4hvm0zmncHaEUw4zj+hD/nL8mK2xHo6A587iUEWAePTEV9f3ZvKVjqbJm6heQKjdTUaf6NGymfSpeS6WZ+LGkJD/sWRXT41BOA+y4GC4/8Wwz+vUaiM2K6GbYtjmu2Wx+F9UoCVZy4",
+      "badges": [
+        "LAUNCHER",
+        "MINECRAFT",
+        "GITHUB"
+      ],
+      "id": "000130"
+    },
+    {
+      "name": "SuperTuxKart",
+      "info": "SuperTuxKart es un videojuego libre de carreras tipo arcade en 3D basado en Mario Kart",
+      "enlace": "AuxpUiIeYBGjeHaAXPXC6JFibQLcREUifhTCAf6gH2acrPfK+HjBeZg6SOK1r5w3ISqDcQjYQb5ijlWA+wr7pFOhGle7VHeol5ye25lnNnyD5M9owF+cuJ0hkYoieLV9t/aetFxoGGYjqzf/vL0C54zL+YXS9RFpg4RYr0bfTQU8whHvV0u8bPz9VaY28l4jQ+2symt1apOLwqUQN8noAbc=",
+      "badges": [
+        "CARRERAS",
+        "MULTIPLATAFORMA",
+        "OPEN SOURCE"
+      ],
+      "id": "000131",
+      "verified": true
+    },
+    {
+      "name": "Litecraft PE 1.18.32",
+      "info": "Esta es una modificacion de OptiCraft Bedrock 1.18.31 para agregarle mayor contenido y mejorar el rendimiento.",
+      "enlace": "ApbwMPBv8lwSB1NA1MBY4xJh5GrMa+o5SIyXbbC8TQUTcM0Dz6ELHs/R3zp+829BtGreXUUXEj0hXKO9HI9FnLkFw5CT8x6coAheES4dmlJvBKS7OmP/+vRRgxpdeos6+Sodl9mAtwoyg5wfLnjTaqU=",
+      "badges": [
+        "TOMEX y OPTI",
+        "BEDROCK",
+        "OPTICRAFT"
+      ],
+      "id": "000132"
+    },
+    {
+      "name": "Plants vs Zombies 2",
+      "info": "Defiende tu jardín contra hordas de zombis a través del tiempo en esta secuela optimizada.",
+      "enlace": "ApOyLw20UL7ajRBlb7CMwrjI5uBW5bsLYTVD5YYaMkilK+u+IbGGsWqCGLvxS9tct8fY9Hf7nXNq4z58RKnJrsKxeQQzOJnH3OfNQ/FyPsrbKfyxrLIvfZ8FC086WfpelRC4RZdh1aTfSkrarH9aO1M=",
+      "badges": [
+        "DEFENSA",
+        "ESTRATEGIA",
+        "ZOMBIS"
+      ],
+      "id": "000133"
+    }
+  ],
+  "extras": [
+    {
+      "name": "DriverPack para Windows XP",
+      "info": "Paquete completo de controladores para hardware difícil de encontrar en sistemas Windows XP de 32 bits (x86).",
+      "enlace": "ApCVvWBJv9ALxIfDHgnJnda23gHKyIskK7AZkaiFqcm4yiHyUqzzY8dcRC9MLwb0nbRh64TbXVgRDgdSFpvCdiOLTKsHQ+Zfiw7sPDFZUqMJ81DU+QJmHm5BJpytjHE2QhT0l7COfQurI0lzUh5j88Q+BxHLWsxp5IlEBlVIg/bdTsYXg+ceZDX9WlG35uz1yZI3m/BuLjhRFVycKyTsXzM=",
+      "badges": [
+        "DRIVERS",
+        "WINDOWS XP",
+        "COMPATIBILIDAD"
+      ],
+      "id": "000134",
+      "verified": true
+    },
+    {
+      "name": "Optimizar Youtube",
+      "info": "",
+      "enlace": "#",
+      "badges": [
+        "MODOS",
+        "OPTIMIZACION",
+        "YOUTUBE"
+      ],
+      "id": "000135",
+      "verified": true
+    },
+    {
+      "name": "Tema Windows 10 para 7",
+      "info": "Transforma la apariencia de tu Windows 7 para que se vea como Windows 10. Incluye iconos, colores y efectos.",
+      "enlace": "AiDwHi1p3cTSmpu7+poujhI8kvLItyDnlRnWfyzrJbwFV1jwUAyiC1n6cqEC2w7z187YaTkBbQRpH+TAr7nIYo1AbjWm7C7bdSfBqMKqGDVLJAWJle2nKwIwlfJP5ZWSJ0LT4w3xeHD5osWKlfhEiPyh6Le4zcUfVAj4R3DXFSfueeesX/Zk/hFXhANGck2bW83RGsiT1Afw8Rs8Mb3VqP9ZBda8dxTMKZUDo7eG/tPV",
+      "badges": [
+        "PERSONALIZACIÓN",
+        "TEMAS",
+        "WINDOWS 7"
+      ],
+      "id": "000136",
+      "verified": true
+    },
+    {
+      "name": "Corregir Píxeles Muertos",
+      "info": "Utilidad web y ejecutable diseñada para intentar revivir píxeles trabados en pantallas LCD mediante ciclos de color rápidos, suele funcionar aveces.",
+      "enlace": "ArwmFIcVu9uxtVEWz8ZtXcMsrGu15+StymsocopjdCNw0uZ4gz2N7q/js4OQp4LrwaT1iuEu1kzQl36L5vfF1USNuBSWnKt6TQn2inb1vZjSzKRdRZzp/JuUsVXrN3a0dQ==",
+      "badges": [
+        "MONITOR",
+        "REPARACIÓN",
+        "WEB"
+      ],
+      "id": "000137"
+    },
+    {
+      "name": "Donar con PayPal",
+      "info": " ",
+      "enlace": "#",
+      "badges": [
+        "DONACIÓN",
+        "PAYPAL",
+        "PROYECTO"
+      ],
+      "id": "000138",
+      "verified": false
+    },
+    {
+      "name": "DirectX 9.0c para Windows XP-7",
+      "info": "DirectX es un conjunto de API que permite a los juegos y a otros programas orientados a gráficos interactuar directamente con el hardware de vídeo y audio. Es compatible con Windows XP hasta el 7",
+      "enlace": "AgksySpMjs/Mt6I1gQbhn4hFCW6NvKu3ZLIaSydIKoF4eyWIxrF4d+npNjdqvgUl8xveKdBZiIMtCHS4ggAI53TmA5t75hyZXXnuG7ex/8C6MtIniiDkLOGeYc7j6o1jYIhb+vP23s3Y1Z4tUtZWfXwAt6RVK/6NPJ/Ctj75BIXt6TFzVJBVoXFGEdXuBSfkqi/tKA/QQ7OfO5XxIsGwOc9RY0JyIoACSZnULQnAGBcH",
+      "badges": [
+        "ESENCIAL",
+        "WINDOWS XP",
+        "JUEGOS"
+      ],
+      "id": "000139",
+      "verified": true
+    }
+  ]
+}

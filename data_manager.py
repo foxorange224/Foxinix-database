@@ -4,6 +4,8 @@
 import os
 import json
 import logging
+import re
+import shutil
 from typing import Optional, Any
 
 from crypto_utils import (
@@ -61,6 +63,12 @@ class DataManager:
                 continue
             output[cat] = self._encrypt_items(self.data[cat])
         try:
+            # Rotating backups (reduced to 2 for speed)
+            if os.path.exists(DATA_FILE):
+                if os.path.exists(f"{DATA_FILE}.bak1"):
+                    shutil.move(f"{DATA_FILE}.bak1", f"{DATA_FILE}.bak2")
+                shutil.copy2(DATA_FILE, f"{DATA_FILE}.bak1")
+
             with open(DATA_FILE, 'w', encoding='utf-8') as f:
                 json.dump(output, f, ensure_ascii=False, indent=2)
             self.modified = False
@@ -94,6 +102,11 @@ class DataManager:
                     e['enlace'] = encrypt_enlace(enl, self.password)
                 except Exception as exc:
                     logger.error("Failed to encrypt enlace for item %s: %s", e.get('id'), exc)
+            
+            # Do not save 'pending' link status to JSON
+            if e.get('link_status') == 'pending':
+                e.pop('link_status', None)
+                
             e.pop('modal', None)
             result.append(e)
         return result
@@ -117,6 +130,11 @@ class DataManager:
                     pass
         self._id_counter = max_id + 1
 
+    def generate_next_id(self) -> str:
+        new_id = f'{self._id_counter:06d}'
+        self._id_counter += 1
+        return new_id
+
     def get_item(self, cat: str, idx: int) -> Optional[dict]:
         if cat not in self.data or idx < 0 or idx >= len(self.data[cat]):
             return None
@@ -125,11 +143,12 @@ class DataManager:
     def add_item(self, cat: str) -> Optional[str]:
         if cat not in self.data:
             return None
-        new_id = f'{self._id_counter:06d}'
-        self._id_counter += 1
+        new_id = self.generate_next_id()
         self.data[cat].append({
             'name': 'Nuevo elemento', 'info': '',
-            'enlace': '#', 'badges': [], 'id': new_id,
+            'enlace': '#', 'badges': [], 'id': new_id, 'link_status': 'pending',
+
+
         })
         self.modified = True
         logger.info("Added item %s in %s", new_id, cat)
@@ -204,22 +223,45 @@ class DataManager:
             mapping[old_id] = new_id
             item['id'] = new_id
 
-        for old_id, new_id in mapping.items():
-            if old_id == new_id:
-                continue
+        # Phase 1: Move all files to temporary names to avoid collisions
+        temp_mapping = {}
+        for old_id in mapping.keys():
+            # Icons
             old_icon = icon_path(old_id)
-            new_icon = icon_path(new_id)
             if os.path.exists(old_icon):
-                os.rename(old_icon, new_icon)
+                tmp_icon = old_icon + '.tmp'
+                os.rename(old_icon, tmp_icon)
+                temp_mapping[old_id + '_icon'] = tmp_icon
+            # Markdown
             old_md = md_path(old_id)
-            new_md = md_path(new_id)
             if os.path.exists(old_md):
-                os.rename(old_md, new_md)
-            self._icon_cache.pop(old_id, None)
+                tmp_md = old_md + '.tmp'
+                os.rename(old_md, tmp_md)
+                temp_mapping[old_id + '_md'] = tmp_md
+
+        # Phase 2: Move from temporary names to final new IDs
+        for old_id, new_id in mapping.items():
+            # Icons
+            tmp_icon = temp_mapping.get(old_id + '_icon')
+            if tmp_icon and os.path.exists(tmp_icon):
+                new_icon = icon_path(new_id)
+                # Overwrite destination if it somehow exists (though it shouldn't now)
+                if os.path.exists(new_icon):
+                    os.remove(new_icon)
+                os.rename(tmp_icon, new_icon)
+            
+            # Markdown
+            tmp_md = temp_mapping.get(old_id + '_md')
+            if tmp_md and os.path.exists(tmp_md):
+                new_md = md_path(new_id)
+                if os.path.exists(new_md):
+                    os.remove(new_md)
+                os.rename(tmp_md, new_md)
 
         self._update_id_counter()
         self.modified = True
-        logger.info("Reordered %d IDs", len(mapping))
+        self._icon_cache.clear()
+        logger.info("Reordered %d IDs safely with two-phase renaming", len(mapping))
         return mapping
 
     def set_icon(self, item_id: str, source_path: str) -> bool:
@@ -300,6 +342,39 @@ class DataManager:
             pass
         return None
 
+    def verify_icons(self) -> dict:
+        """Verifica la consistencia entre los IDs del JSON y los archivos en la carpeta icons."""
+        report = {
+            'missing': [],   # IDs que no tienen imagen
+            'orphans': [],   # Imágenes que no pertenecen a ningún ID
+            'total_items': 0,
+            'total_icons': 0
+        }
+        
+        all_ids = set()
+        for cat in self.data.values():
+            for item in cat:
+                all_ids.add(item.get('id', ''))
+        
+        report['total_items'] = len(all_ids)
+        
+        # Buscar faltantes
+        for item_id in all_ids:
+            if not os.path.exists(icon_path(item_id)):
+                report['missing'].append(item_id)
+        
+        # Buscar huérfanos
+        if os.path.isdir(ICONS_DIR):
+            files = os.listdir(ICONS_DIR)
+            report['total_icons'] = len(files)
+            for f in files:
+                if f.endswith('.webp'):
+                    item_id = f.replace('.webp', '')
+                    if item_id not in all_ids:
+                        report['orphans'].append(item_id)
+                        
+        return report
+
     def get_icon_info(self, item_id: str) -> str:
         path = icon_path(item_id)
         if not os.path.exists(path):
@@ -337,4 +412,18 @@ class DataManager:
         if os.path.exists(path):
             os.remove(path)
             return True
+        return False
+
+    def rename_icon_by_name(self, item_id: str, name: str) -> bool:
+        """Renombra el icono basándose en el nombre del programa para evitar el caos de IDs."""
+        clean_name = re.sub(r'[\\/*?:"<>|]', '', name).replace(' ', '_').lower()
+        new_path = os.path.join(ICONS_DIR, f'{clean_name}.webp')
+        old_path = icon_path(item_id)
+        
+        try:
+            if os.path.exists(old_path):
+                os.rename(old_path, new_path)
+                return True
+        except Exception as e:
+            logger.error("Failed to rename icon %s to %s: %s", item_id, clean_name, e)
         return False
